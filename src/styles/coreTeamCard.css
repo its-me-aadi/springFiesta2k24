@@ -1,0 +1,38 @@
+.flip-card {
+    perspective: 1000px;
+    border-radius: 2rem;
+    width: 14rem;
+    height: 20rem;
+  } 
+  
+  .flip-card-inner {
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    box-shadow: 0 0 10px #0000003f;
+    border-radius: 1rem;
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0.8rem;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    background-size: cover;
+    outline: 3px solid black;
+  }
