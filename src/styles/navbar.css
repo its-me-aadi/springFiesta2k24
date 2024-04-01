@@ -2,11 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Base-neus-bold';
+    font-family: 'Unbounded';
     width: 100%;
     font-size: 3vh;
-    height: 12vh;
-    position: absolute;
+    padding:3rem 0 0 0;
     background-color: transparent;
 }
  
@@ -23,8 +22,9 @@
 }
 
 .border-cross{
-    border-bottom: 3px solid #EC5D2C;
+    border-bottom: 3px solid #FF204E;
     transform: rotate(1deg);
+    padding-top: 0.5rem;
 }
 
 @media screen and (max-width: 1024px){

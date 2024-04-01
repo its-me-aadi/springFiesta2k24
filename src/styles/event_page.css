@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+    margin-top: 3rem;
 }
 
 .part-one{
@@ -29,7 +30,8 @@
     font-size: 8vh;
     text-align: left;
     color: #FF204E;
-    font-family: 'Base-neus-bold';
+    font-family: 'Unbounded';
+    font-weight: 900;
     text-shadow: -2px -2px 0 #000,  2px -2px 0 #000, -2px  2px 0 #000, 2px  2px 0 #000; 
     letter-spacing: 0.45rem;
 }
@@ -37,7 +39,7 @@
     font-size: 8vh;
     color: #FFFFFF;
     text-align: right;
-    font-family: 'Base-neus-bold';
+    font-family: 'Unbounded';
     text-shadow: -2px -2px 0 #000,  2px -2px 0 #000, -2px  2px 0 #000, 2px  2px 0 #000; 
     letter-spacing: 0.45rem;
 }
@@ -62,14 +64,16 @@
 }
 
 .sch-head{
-    font-family: 'Base-neus-bold';
+    font-family: 'Unbounded';
+    font-weight: 600;
     letter-spacing: 0.1rem;
 }
 
 .sch-content{
     margin: 3vh 0;
     letter-spacing: 0.020rem;
-    font-family: 'Base-neus-Medium';
+    font-family: 'Unbounded';
+    font-weight: 400;
     border-bottom: #000;
 }
 
@@ -122,7 +126,7 @@
     font-size: 8vh;
     color: #FFFFFF;
     text-align: left;
-    font-family: 'Base-neus-bold';
+    font-family: 'Unbounded';
     text-shadow: -2px -2px 0 #000,  2px -2px 0 #000, -2px  2px 0 #000, 2px  2px 0 #000; 
     letter-spacing: 0.45rem;
 }
@@ -185,7 +189,7 @@
     font-size: 8vh;
     color: #FFFFFF;
     text-align: right;
-    font-family: 'Base-neus-bold';
+    font-family: 'Unbounded';
     text-shadow: -2px -2px 0 #000,  2px -2px 0 #000, -2px  2px 0 #000, 2px  2px 0 #000; 
     letter-spacing: 0.45rem;
 }
