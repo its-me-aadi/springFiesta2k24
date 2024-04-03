@@ -5,6 +5,9 @@ import Pillar from '../components/pillar.svg'
 import Balloon from '../components/balloon.svg'
 import Horizontal from '../components/horrizontal-pipe.svg'
 import '../styles/event_page.css'
+import data1 from '../data1.json'
+import data2 from '../data2.json'
+import data3 from '../data3.json'
 
 const EventPage = () => {
   const HandleEventLoad = () => {
@@ -33,18 +36,15 @@ const EventPage = () => {
             <div className="part-one-sub-section">
               <div className="part-one-sub-side-1">
                   <img id='hoppie' src={Hoppie} alt="Hoppie" />
-                  <div className='sch-container'>
-                    <h1 className='sch-head'>10AM</h1>
-                    <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                  </div>
-                  <div className='sch-container'>
-                    <h1 className='sch-head'>11AM</h1>
-                    <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                  </div>
-                  <div className='sch-container'>
-                    <h1 className='sch-head'>12PM</h1>
-                    <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                  </div>
+                
+                  {data1.map((creatediv)=>{
+                        return (
+                          <div className='sch-container'>
+                            <h1 className='sch-head'>{creatediv.time}</h1>
+                            <p className='sch-content'>{creatediv.description}</p>
+                          </div>
+                        )
+                  })}
               </div>
               <div className="part-one-sub-side-2">
                 <img id='joker' src={Joker} alt="Joker"/>
@@ -60,35 +60,27 @@ const EventPage = () => {
             </div>
             <div className="part-two-sub-section">
               <div className="part-two-sub-side-1">
-                <div className='sch-container'>
-                  <h1 className='sch-head'>10AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>10AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>10AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
+              {data2[0].map((creatediv)=>{
+                        return (
+                          <div className='sch-container'>
+                            <h1 className='sch-head'>{creatediv.time}</h1>
+                            <p className='sch-content'>{creatediv.description}</p>
+                          </div>
+                        )
+                  })}
               </div>
               <div className="pillar-part">
                 <img id='pillar' src={Pillar} alt="Pillar"/>
               </div>
               <div className="part-two-sub-side-2">
-                <div className='sch-container'>
-                  <h1 className='sch-head'>12AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>3PM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>6PM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
+                {data2[1].map((creatediv)=>{
+                  return (
+                    <div className='sch-container'>
+                      <h1 className='sch-head'>{creatediv.time}</h1>
+                      <p className='sch-content'>{creatediv.description}</p>
+                    </div>
+                    )
+                  })}
               </div>
             </div>
           </div>
@@ -101,32 +93,24 @@ const EventPage = () => {
             </div>
             <div className="part-three-sub-section">
               <div className="part-three-sub-side-1">
-                <div className='sch-container'>
-                  <h1 className='sch-head'>10AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>11AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>12PM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
+              {data3[0].map((creatediv)=>{
+                  return (
+                    <div className='sch-container'>
+                      <h1 className='sch-head'>{creatediv.time}</h1>
+                      <p className='sch-content'>{creatediv.description}</p>
+                    </div>
+                    )
+                  })}
               </div>
               <div className="part-three-sub-side-2">
-                <div className='sch-container'>
-                  <h1 className='sch-head'>1PM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>11AM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
-                <div className='sch-container'>
-                  <h1 className='sch-head'>12PM</h1>
-                  <p className='sch-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet adipisci placeat consectetur a ex repellendus, corrupti ratione vitae saepe rerum fugiat, impedit asperiores porro id pariatur.</p>
-                </div>
+              {data3[1].map((creatediv)=>{
+                  return (
+                    <div className='sch-container'>
+                      <h1 className='sch-head'>{creatediv.time}</h1>
+                      <p className='sch-content'>{creatediv.description}</p>
+                    </div>
+                    )
+                  })}
               </div>
             </div>
             <img id='balloon' src={Balloon} alt="Balloon" />  
