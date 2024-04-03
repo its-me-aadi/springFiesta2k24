@@ -1,0 +1,18 @@
+[
+    {
+        "image":"/images/image1.svg",
+        "like":"/images/like.svg"
+    },
+    {
+        "image":"/images/image2.svg",
+        "like":"/images/like.svg"
+    },
+    {
+        "image":"/images/image3.svg",
+        "like":"/images/like.svg"
+    },
+    {
+        "image":"/images/image4.svg",
+        "like":"/images/like.svg"
+    }
+]
