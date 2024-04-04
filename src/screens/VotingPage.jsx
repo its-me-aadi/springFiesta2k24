@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import '../styles/VotingPage.css'
-import axios from 'axios';
-import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import party_pooper1 from '../components/partyPooper1.svg'
