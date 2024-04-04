@@ -1,17 +1,21 @@
 [
     {
+        "name" : "yash",
         "image":"/images/image1.svg",
         "like":"/images/like.svg"
     },
     {
+        "name" : "prateek",
         "image":"/images/image2.svg",
         "like":"/images/like.svg"
     },
     {
+        "name" : "jesse",
         "image":"/images/image3.svg",
         "like":"/images/like.svg"
     },
     {
+        "name" : "akash",
         "image":"/images/image4.svg",
         "like":"/images/like.svg"
     }
