@@ -103,6 +103,7 @@ body {
     right: -34.38%;
     top: 4%;
     bottom: 47.17%;
+    z-index: -1;
 }
 
 .circus {
@@ -121,6 +122,7 @@ body {
     gap: 10vh;
     margin-top: 10vh;
 }
+
 .box-container1{
     box-sizing: border-box;
     width: 32vh;
@@ -148,7 +150,6 @@ body {
     align-items: center;
     margin-left: 3vh;
     margin-top: 1vh;
-
 }
 
 .like-button{
@@ -162,6 +163,7 @@ body {
     justify-content: center;
     margin-left: 11vh;
     margin-top: 1vh;
+    cursor: pointer;
 }
 
 .like-button:hover {
