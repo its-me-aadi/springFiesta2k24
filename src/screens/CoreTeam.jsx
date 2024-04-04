@@ -2,7 +2,7 @@
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import "../styles/coreTeam.css";
 import Card from "../components/Card";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const CoreTeam = () => {
   let rotateArr = [-9, -7, -5, -3, -1, 1, 3, 5, 7, 9];
@@ -13,7 +13,7 @@ const CoreTeam = () => {
 
   let cardMotion = [
     {
-      multiplier: 0,
+      multiplier: 0, 
       x: center,
       y: 50,
     },
@@ -67,7 +67,7 @@ const CoreTeam = () => {
   const { scrollY } = useScroll();
 
   const [scrollYValue, setScrollYValue] = useState(scrollY.get());
-  const [firstRun, setFirstRun] = useState(true);
+  // const [firstRun, setFirstRun] = useState(true);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScrollYValue(latest);

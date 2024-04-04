@@ -10,6 +10,7 @@ import data2 from '../data2.json'
 import data3 from '../data3.json'
 
 const EventPage = () => {
+  
   const HandleEventLoad = () => {
     const midLine = document.querySelectorAll('.mid-line')
   

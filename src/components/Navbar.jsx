@@ -4,6 +4,11 @@ import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 const Navbar = () => {
   const location = useLocation();
+  const HandleLogout = () => {
+    localStorage.removeItem("token");
+    window.location.reload();
+  }
+  
   return (
     <motion.div
       className="nav-main"
@@ -33,6 +38,21 @@ const Navbar = () => {
           {location.pathname === "/voting" && (
             <div className="border-cross"></div>
           )}
+        </li>
+        <li className="nav-li"> 
+          
+          {!localStorage.getItem("token") ? 
+          <>
+            <Link to="/register">Login</Link>
+            {location.pathname === "/register" && (
+              <div className="border-cross"></div>
+            )} 
+          </>
+          :
+          <>
+            <Link to="/" onClick={HandleLogout}>Logout</Link>
+          </>
+          }
         </li>
       </ul>
     </motion.div>
