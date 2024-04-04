@@ -17,11 +17,6 @@ function VotingPage() {
 
   return (
     <div className='main-body'>
-      <img src= {party_pooper1} className="party-pooper1" alt="party-pooper1" />
-      <img src= {party_pooper2} className="party-pooper2" alt="party-pooper2" />
-      <img src= {sprinklers1} className="sprinklers1" alt="sprinklers1" />
-      <img src= {sprinklers2} className="sprinklers2" alt="sprinklers2" />
-      <img src= {circus_tent}className="circus" alt="circus" />
       <div className="title">
         <p>VOTING PAGE</p>
       </div>
@@ -32,15 +27,24 @@ function VotingPage() {
           <FontAwesomeIcon icon={faSearch} className="search-icon" />
         </a>
       </div>
+      <div className='sprinklers'>
+          <img src= {sprinklers1} className="sprinklers1" alt="sprinklers1" />
+          <img src= {sprinklers2} className="sprinklers2" alt="sprinklers2" />
+      </div>
       <div className="box">
          {images.map((image)=>{
            return (
-              <div className="box-container1">
+             <div className="box-container1">
                 <img src={image.image} className="image" alt="image1" />
                 <img src={image.like} className="like-button" alt="like" />
               </div>
             )
-         })}
+          })}
+      </div>
+      <div className='canvas'>
+          <img src= {party_pooper1} className="party-pooper1" alt="party-pooper1" />
+          <img src= {circus_tent}className="circus" alt="circus" />
+          <img src= {party_pooper2} className="party-pooper2" alt="party-pooper2" />
       </div>
     </div>
   );
