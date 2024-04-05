@@ -4,6 +4,7 @@ import "../styles/loginpage.css"
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { decodeToken } from 'react-jwt';
+import Navbar from '../components/Navbar';
 
 export default function Login() {
   const [credentials, setCredentials] = useState({
@@ -68,6 +69,8 @@ export default function Login() {
 
 
   return (
+    <div><Navbar/>
+
     <div className='main-div'>
       {login ? 
       <>
@@ -128,6 +131,7 @@ export default function Login() {
         </div>
       </div>
       }
+    </div>
     </div>
   )
 }

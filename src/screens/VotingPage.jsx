@@ -10,6 +10,7 @@ import circus_tent from '../components/circusTent.svg'
 // import images from "../image.json";  
 import { Link, useNavigate } from 'react-router-dom';
 import { decodeToken } from 'react-jwt';
+import Navbar from '../components/Navbar';
 
 function VotingPage() {
   const [data, setData] = useState([])
@@ -62,6 +63,9 @@ function VotingPage() {
   }
 
   return (
+    <div>
+
+    <Navbar/>
     <div className='main-body'>
       <img src={party_pooper1} className="party-pooper1" alt="party-pooper1" />
       <img src={party_pooper2} className="party-pooper2" alt="party-pooper2" />
@@ -88,6 +92,7 @@ function VotingPage() {
           )
         })}
       </div>
+    </div>
     </div>
   );
 }

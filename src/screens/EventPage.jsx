@@ -8,6 +8,7 @@ import '../styles/event_page.css'
 import data1 from '../data1.json'
 import data2 from '../data2.json'
 import data3 from '../data3.json'
+import Navbar from '../components/Navbar'
 
 const EventPage = () => {
   
@@ -27,6 +28,8 @@ const EventPage = () => {
     
 
   return (
+    <div>
+      <Navbar/>
     <div className='event-main' onLoad={HandleEventLoad}>
         <div className="part-one">
           <div className="part-one-main">
@@ -117,6 +120,7 @@ const EventPage = () => {
             <img id='balloon' src={Balloon} alt="Balloon" />  
           </div>
         </div>
+    </div>
     </div>
   )
 }
