@@ -14,7 +14,7 @@ const CoreTeam = () => {
 
   let cardMotion = [
     {
-      multiplier: 0, 
+      multiplier: 0,
       x: center,
       y: 50,
     },
@@ -88,7 +88,7 @@ const CoreTeam = () => {
 
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <motion.div
         className="heading"
         initial={{ opacity: 0, scale: 0 }}
@@ -115,7 +115,7 @@ const CoreTeam = () => {
           {rotateArr.map((i, index) => {
             return (
               <Card
-                multiply={scrollYValue<250 ? i : cardMotion[index].multiplier}
+                multiply={scrollYValue < 250 ? i : cardMotion[index].multiplier}
                 scrollYValue={scrollYValue}
                 x={cardMotion[index].x}
                 y={cardMotion[index].y}
