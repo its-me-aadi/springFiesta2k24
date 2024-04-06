@@ -2,7 +2,7 @@
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import "../styles/coreTeam.css";
 import Card from "../components/Card";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const CoreTeam = () => {
   let rotateArr = [-9, -7, -5, -3, -1, 1, 3, 5, 7, 9];
