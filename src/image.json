@@ -1,5 +1,6 @@
 [
     {
+        "name" : "yash",
         "image":"/images/image1.svg",
         "like":"/images/heart.svg",
         "name":"Light Yagami"
