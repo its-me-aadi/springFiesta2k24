@@ -34,7 +34,7 @@ const Card = () => {
         <div className="flip-card-front" style={{ backgroundColor: "white" }}>
           <div
             className="mem-image"
-            style={{ backgroundImage: `url("../images/back.png")` }}
+            style={{ backgroundImage: `url(${back})` }}
           >
               <h2>Name</h2>
               <h4>Designation</h4>
