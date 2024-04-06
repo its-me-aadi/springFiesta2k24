@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/springFiesta2k24/static/css/main.0f7259ca.css",
-    "main.js": "/springFiesta2k24/static/js/main.dacff42a.js",
+    "main.js": "/springFiesta2k24/static/js/main.93f68b49.js",
     "static/js/208.50077fed.chunk.js": "/springFiesta2k24/static/js/208.50077fed.chunk.js",
     "static/js/293.6590f4ee.chunk.js": "/springFiesta2k24/static/js/293.6590f4ee.chunk.js",
     "static/js/917.e08c4f43.chunk.js": "/springFiesta2k24/static/js/917.e08c4f43.chunk.js",
@@ -25,7 +25,7 @@
     "static/media/horrizontal-pipe.svg": "/springFiesta2k24/static/media/horrizontal-pipe.ad513490ef080d05e26319babddae3eb.svg",
     "index.html": "/springFiesta2k24/index.html",
     "main.0f7259ca.css.map": "/springFiesta2k24/static/css/main.0f7259ca.css.map",
-    "main.dacff42a.js.map": "/springFiesta2k24/static/js/main.dacff42a.js.map",
+    "main.93f68b49.js.map": "/springFiesta2k24/static/js/main.93f68b49.js.map",
     "208.50077fed.chunk.js.map": "/springFiesta2k24/static/js/208.50077fed.chunk.js.map",
     "293.6590f4ee.chunk.js.map": "/springFiesta2k24/static/js/293.6590f4ee.chunk.js.map",
     "917.e08c4f43.chunk.js.map": "/springFiesta2k24/static/js/917.e08c4f43.chunk.js.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.0f7259ca.css",
-    "static/js/main.dacff42a.js"
+    "static/js/main.93f68b49.js"
   ]
 }
