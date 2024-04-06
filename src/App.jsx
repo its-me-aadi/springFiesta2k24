@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route , Routes } from 'react-router-dom';
 import Home from './screens/Home';
 import CoreTeam from './screens/CoreTeam';
 import EventPage from './screens/EventPage';
-import VotingPage from './screens/VotingPage'
+import CoreTeamDept from './screens/CoreTeamDept';
+import VotingPage from './screens/VotingPage';
 import Login from './screens/login';
 
 function App() {
@@ -11,10 +12,11 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/events" element={<EventPage/>} />
-          <Route path="/core-team" element={<CoreTeam/>} />
-          <Route path="/voting" element={<VotingPage/>} />
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/events" element={<EventPage/>}></Route>
+          <Route path="/core-team" element={<CoreTeam/>}></Route>
+          <Route path="/core-team/:dept" element={<CoreTeamDept/>}></Route>
+          <Route path="/voting" element={<VotingPage/>}></Route>
           <Route path='/register' element={<Login />} />
         </Routes>
       </Router>

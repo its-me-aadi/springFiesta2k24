@@ -40,14 +40,79 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
     }
   };
 
+  const variantTablet = {
+    shuffle: {
+      rotate: multiply * 2 + "deg",
+      x: multiply * 15,
+      y: Math.abs(multiply * 3.5),
+      transition: {
+        delay: 1,
+        ease: "easeOut",
+        duration: 0.4,
+      },
+    },
+    pack: {
+      rotate: multiply + "deg",
+      x: x,
+      y: y,
+      scale:0.85,
+      transition: {
+        ease: "easeOut",
+        duration: 0.4,
+      },
+    }
+  };
+
+  const variantMobile = {
+    shuffle: {
+      rotate: multiply + "deg",
+      x: multiply * 2.9,
+      y: Math.abs(multiply * 2),
+      transition: {
+        delay: 1,
+        ease: "easeOut",
+        duration: 0.4,
+      },
+    },
+    pack: {
+      rotate: multiply + "deg",
+      x: x,
+      y: y,
+      transition: {
+        ease: "easeOut",
+        duration: 0.4,
+      },
+    }
+  };
+
+  let finalVariant;
+  let desiredScrollValue = 0;
+
+  if (window.innerWidth > 1150){
+    finalVariant = variant
+    desiredScrollValue = 250
+
+  }
+  else if(window.innerWidth >480){
+    finalVariant = variantTablet
+    desiredScrollValue = 100
+
+  }
+  else {
+    finalVariant = variantMobile
+    desiredScrollValue = 25
+  }
+
+  console.log(scrollYValue);
+
   return (
     <motion.div
       className="flip-card"
       onClick={handleFlip}
       whileHover={{ scale: 1.2 }}
-      animate={scrollYValue>250 ? "pack" : "shuffle"}
+      animate={scrollYValue>=desiredScrollValue ? "pack" : "shuffle"}
       // animate='shuffle'
-      variants={variant}
+      variants={finalVariant}
       // transition={{ delay: 1, ease: "easeOut", duration: 1 }}
     >
       <motion.div
@@ -59,14 +124,14 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
       >
         <div className="flip-card-front" style={{ backgroundColor: "white" }}>
           <div
-            className="image"
+            className="mem-image"
             style={{ backgroundImage: `url(${back})` }}
           ></div>
         </div>
 
         <div className="flip-card-back" style={{ backgroundColor: "white" }}>
           <div
-            className="image"
+            className="mem-image"
             style={{ backgroundImage: `url(${front})` }}
           ></div>
         </div>

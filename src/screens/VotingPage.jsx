@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/VotingPage.css';
 import Navbar from '../components/Navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { faSearch } from '@fontawesome/free-solid-svg-icons';
 import party_pooper1 from '../components/partyPooper1.svg';
 import party_pooper2 from '../components/partyPooper2.svg';
 import sprinklers1 from '../components/sprinklers1.svg';

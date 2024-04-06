@@ -9,12 +9,13 @@ const CoreTeam = () => {
   let rotateArr = [-9, -7, -5, -3, -1, 1, 3, 5, 7, 9];
 
   let left = -350
-  let center = 0
+  let center = 6
   let right = 350
 
   let cardMotion = [
     {
-      multiplier: 0,
+      multiplier: 1,
+
       x: center,
       y: 50,
     },
@@ -24,51 +25,156 @@ const CoreTeam = () => {
       y: 450,
     },
     {
-      multiplier: 3,
+      multiplier: 4,
       x: center,
       y: 450,
+    },
+    {
+      multiplier: -5,
+      x: right,
+      y: 450,
+    },
+    {
+      multiplier: 2,
+      x: left,
+      y: 850,
+    },
+    {
+      multiplier: -7,
+      x: center,
+      y: 850,
+    },
+    {
+      multiplier: 10,
+      x: right,
+      y: 850,
     },
     {
       multiplier: -4,
-      x: right,
-      y: 450,
-    },
-    {
-      multiplier: -9,
-      x: left,
-      y: 850,
-    },
-    {
-      multiplier: -9,
-      x: center,
-      y: 850,
-    },
-    {
-      multiplier: -9,
-      x: right,
-      y: 850,
-    },
-    {
-      multiplier: -9,
       x: left,
       y: 1250,
     },
     {
-      multiplier: -9,
+      multiplier: 3,
       x: center,
       y: 1250,
     },
     {
-      multiplier: -9,
+      multiplier: -8,
       x: right,
       y: 1250,
+    },
+  ];
+
+  let cardMotionTablet = [
+    {
+      multiplier: 1,
+      x: center,
+      y: 5,
+    },
+    {
+      multiplier: -6,
+      x: -130,
+      y: 350,
+    },
+    {
+      multiplier: 4,
+      x: +130,
+      y: 350,
+    },
+    {
+      multiplier: -5,
+      x: -130,
+      y: 650,
+    },
+    {
+      multiplier: 2,
+      x: 130,
+      y: 650,
+    },
+    {
+      multiplier: -7,
+      x: -130,
+      y: 950,
+    },
+    {
+      multiplier: 10,
+      x: 130,
+      y: 950,
+    },
+    {
+      multiplier: -4,
+      x: -130,
+      y: 1250,
+    },
+    {
+      multiplier: 3,
+      x: 130,
+      y: 1250,
+    },
+    {
+      multiplier: -8,
+      x: 0,
+      y: 1550,
+    },
+  ];
+
+  let cardMotionMobile = [
+    {
+      multiplier: 1,
+      x: 0,
+      y: 0,
+    },
+    {
+      multiplier: -6,
+      x: 0,
+      y: 200,
+    },
+    {
+      multiplier: 4,
+      x: 0,
+      y: 400,
+    },
+    {
+      multiplier: -5,
+      x: 0,
+      y: 600,
+    },
+    {
+      multiplier: 2,
+      x: 0,
+      y: 800,
+    },
+    {
+      multiplier: -7,
+      x: 0,
+      y: 1000,
+    },
+    {
+      multiplier: 10,
+      x: 0,
+      y: 1200,
+    },
+    {
+      multiplier: -4,
+      x: 0,
+      y: 1400,
+    },
+    {
+      multiplier: 3,
+      x: 0,
+      y: 1600,
+    },
+    {
+      multiplier: -8,
+      x: 0,
+      y: 1800,
     },
   ];
 
   const { scrollY } = useScroll();
 
   const [scrollYValue, setScrollYValue] = useState(scrollY.get());
-  // const [firstRun, setFirstRun] = useState(true);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScrollYValue(latest);
@@ -85,6 +191,51 @@ const CoreTeam = () => {
       },
     },
   };
+
+  const deckVariantsTablet = {
+    first: {
+      y: 0,
+      transition: {
+        delay: 0.2,
+        ease: "easeInOut",
+        duration: 1,
+        staggerChildren: 5,
+      },
+    },
+  };
+
+  const deckVariantsMobile = {
+    first: {
+      y: 0,
+      transition: {
+        delay: 0.2,
+        ease: "easeInOut",
+        duration: 1,
+        staggerChildren: 5,
+      },
+    },
+  };
+
+  let finalMotion = [];
+  let desiredScrollValue = 0;
+  let finalDeckvariant;
+
+  if (window.innerWidth > 1150){
+    finalMotion = cardMotion
+    desiredScrollValue = 250
+    finalDeckvariant = deckVariants
+    
+  }
+  else if(window.innerWidth > 480){
+    finalMotion = cardMotionTablet
+    desiredScrollValue = 100
+    finalDeckvariant = deckVariantsTablet
+  }
+  else {
+    finalMotion = cardMotionMobile
+    desiredScrollValue = 25
+    finalDeckvariant = deckVariantsMobile
+  }
 
   return (
     <>
@@ -110,15 +261,16 @@ const CoreTeam = () => {
           className="card-wrapper"
           initial={{ y: 400 }}
           animate={"first"}
-          variants={deckVariants}
+          variants={finalDeckvariant}
         >
           {rotateArr.map((i, index) => {
             return (
               <Card
-                multiply={scrollYValue < 250 ? i : cardMotion[index].multiplier}
+       multiply={scrollYValue<=desiredScrollValue ? i : finalMotion[index].multiplier}
+
                 scrollYValue={scrollYValue}
-                x={cardMotion[index].x}
-                y={cardMotion[index].y}
+                x={finalMotion[index].x}
+                y={finalMotion[index].y}
               />
             );
           })}
