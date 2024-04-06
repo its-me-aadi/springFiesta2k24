@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body {
     background: #00123A;
 }
@@ -97,14 +94,21 @@ body {
     z-index: -1;
 }
 
-.sprinklers2{
-    position: absolute;
-    left: 82.29%;
-    right: -34.38%;
-    top: 4%;
-    bottom: 47.17%;
-    z-index: -1;
+.sprinklers1{
+    margin-left: -75%;
+    margin-top: -60%;
 }
+.sprinklers2{
+    margin-left: 150%;
+    margin-top: -60%;
+}
+
+.canvas{
+    /* position: absolute; */
+    z-index: -1;
+    margin-top: -25%;
+    display: flex;
+
 
 .circus {
     position: absolute;
@@ -119,58 +123,87 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 10vh;
-    margin-top: 10vh;
-}
-
-.box-container1{
-    box-sizing: border-box;
-    width: 32vh;
-    height: 55vh;
-    left: 25vb;
-    top: 500px;
-    background: linear-gradient(180deg, #A0153E 0%, #4B0B35 48.5%, #23203C 100%);
-    border: 0.520629px solid #FFFFFF;
-    box-shadow: 2.08251px 2.08251px 4.16503px #FFFFFF;
-    border-radius: 10.4126px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.image{
-    /* position: absolute; */
-    width: 80%;
-    height: 80%;
-    left: 15px;
-    top: 5px;
-    border-radius: 4.86299px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+}
+
+.box-container {
+    padding: 0.6rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: #2F2B50;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch ;
+}
+
+.main-image img {
+    width: 100%;
+    height: 15rem;
+}
+
+.container-details{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 3vh;
-    margin-top: 1vh;
+    width: 100%;
+}
+.name{
+    padding-right: 2rem;
+    font-size: medium;
 }
 
-.like-button{
-    /* position: absolute; */
-    width: 50px;
-    height: 50px;
-    left: 65px;
-    top: 190px;
+.like-btn {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 11vh;
-    margin-top: 1vh;
-    cursor: pointer;
+    background-color: #00123A;
+    color: white;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    gap: 10px;
 }
 
-.like-button:hover {
-    cursor: pointer;
-    border-width: thick;
-    border-color: black;
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 10vh;
+        line-height: 10vh;
+    }
+    
+    .image-container {
+        width: 90%;
+        height: auto;
+    }
+    
+    .image {
+        width: 100%;
+        height: auto;
+    }
+    .party-pooper1 {
+    right: -5%;
+    height: 80vh;
+    width: 20vw;
+    top: 80vh;
+    transform: rotate(-30deg);
+    }
+        
+    .party-pooper2 {
+    bottom: -500px;
+    left: -5%;
+    height: 80vh;
+    top: 400px;
+    width: 20vw;
+    transform: rotate(30deg);
+    }
+        
+   .sprinklers1 {
+    margin-left: -50%;
+    margin-top: -40%;
+    }
+        
+    .sprinklers2 {
+    margin-left: 100%;
+    margin-top: -40%;
+    }
 }
-
-
+    
 
