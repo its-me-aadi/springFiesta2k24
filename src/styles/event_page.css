@@ -9,6 +9,7 @@
 
 .part-one{
     display: flex;
+    position: relative;
     justify-content: center;
     min-height: 100vh;
     width: 100%;
@@ -53,18 +54,20 @@
 .part-one-sub-side-1{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     width: 40%;
     z-index: 10;
 }
 
 .sch-container{
-    border-bottom: 1px solid #FFFFFF;
     margin: 3vh 0;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .sch-head{
     font-family: 'Unbounded';
+    font-size: 5vh;
     font-weight: 600;
     letter-spacing: 0.1rem;
 }
@@ -79,23 +82,27 @@
 
 .part-one-sub-side-2{
     display: flex;
-    width: 45%;
-    justify-content: end;
-    align-items: center;
+    flex-direction: column;
+    align-items: end;
+    width: 40%;
+    z-index: 10;
 }
 
 #hoppie{
     position: absolute;
-    left: -20vh;
-    bottom: -20vh;
-    height: 70%;
+    left: -5vw;
+    top : 25%;
+    height: 40%;
     opacity: 0.15;
     z-index: 1;
 }
 
 #joker{
-    width: 100%;
-    height: 90%;
+    position: absolute;
+    opacity: 0.25;
+    height: 50%;
+    bottom: 5vh;
+    right: 1vw;
 }
 
 .mid-line{
@@ -255,13 +262,12 @@
     }
 
     #hoppie{
-        bottom: -15vh;
-        height: 60%;
+        left: -15vw;
+        height: 50vh;
     }
 
     #joker{
-        width: 100%; 
-        height: 100%;
+        height: 50vh;
     }
 
     #pillar{
@@ -278,22 +284,34 @@
 
 
 @media screen and (max-width: 768px){
+    .event-main{
+        margin-top: 1rem;
+    }
+
+    .head-1{
+        margin-top: 5vh;
+    }
+
     .head-1-text{
-        font-size: 4vh;
+        letter-spacing: 0.3rem;
+        font-size: 3vh;
         text-shadow: -1px -1px 0 #000,  1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; 
     }
     .head-2-text{
-        font-size: 4vh;
+        letter-spacing: 0.3rem;
+        font-size: 3vh;
         text-shadow: -1px -1px 0 #000,  1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; 
     }
 
     .head-2-text-1{
-        font-size: 4vh;
+        letter-spacing: 0.3rem;
+        font-size: 3vh;
         text-shadow: -1px -1px 0 #000,  1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; 
     }
 
     .head-3-text{
-        font-size: 4vh;
+        letter-spacing: 0.3rem;
+        font-size: 3vh;
         text-shadow: -1px -1px 0 #000,  1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; 
     }
 
@@ -302,20 +320,19 @@
     }
 
     .sch-head{
-        font-size: 3vh;
+        font-size: 2vh;
     }
     .sch-content{
         font-size: 1.5vh;
     }
 
     #hoppie{
-        bottom: -10vh;
-        height: 55%;
+        left: -20vw;    
+        height: 35vh;
     }
 
     #joker{
-        width: 100%;
-        height: 100%;
+        height: 30vh;
     }
     
     #pillar{

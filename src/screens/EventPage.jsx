@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import Joker from '../components/joker.svg'
 import Hoppie from '../components/hoppie.svg'
 import Pillar from '../components/pillar.svg'
@@ -8,8 +9,6 @@ import '../styles/event_page.css'
 import data1 from '../data1.json'
 import data2 from '../data2.json'
 import data3 from '../data3.json'
-import Navbar from '../components/Navbar'
-
 const EventPage = () => {
 
   const HandleEventLoad = () => {
@@ -28,9 +27,9 @@ const EventPage = () => {
 
 
   return (
-    <div>
-      <Navbar />
-      <div className='event-main' onLoad={HandleEventLoad}>
+    <>
+    <Navbar/>
+    <div className='event-main' onLoad={HandleEventLoad}>
         <div className="part-one">
           <div className="part-one-main">
             <div className="head-1">
@@ -40,8 +39,7 @@ const EventPage = () => {
             <div className="part-one-sub-section">
               <div className="part-one-sub-side-1">
                 <img id='hoppie' src={Hoppie} alt="Hoppie" />
-
-                {data1.map((creatediv) => {
+                {data1[0].map((creatediv) => {
                   return (
                     <div className='sch-container'>
                       <h1 className='sch-head'>{creatediv.time}</h1>
@@ -50,8 +48,16 @@ const EventPage = () => {
                   )
                 })}
               </div>
+              <img id='joker' src={Joker} alt='Joker' />
               <div className="part-one-sub-side-2">
-                <img id='joker' src={Joker} alt="Joker" />
+                  {data1[1].map((creatediv) => {
+                    return (
+                      <div className='sch-container'>
+                        <h1 className='sch-head'>{creatediv.time}</h1>
+                        <p className='sch-content'>{creatediv.description}</p>
+                      </div>
+                    )
+                  })}
               </div>
             </div>
           </div>
@@ -117,11 +123,11 @@ const EventPage = () => {
                 })}
               </div>
             </div>
-            <img id='balloon' src={Balloon} alt="Balloon" />
+            <img id='balloon' src={Balloon} alt="Balloon" />  
           </div>
         </div>
-      </div>
     </div>
+    </>
   )
 }
 
