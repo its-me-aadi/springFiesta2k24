@@ -5,6 +5,7 @@ import Home from './screens/Home';
 import CoreTeam from './screens/CoreTeam';
 import EventPage from './screens/EventPage';
 import CoreTeamDept from './screens/CoreTeamDept';
+import VotingPage from './screens/VotingPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/events" element={<EventPage/>}></Route>
           <Route path="/core-team" element={<CoreTeam/>}></Route>
           <Route path="/core-team/:dept" element={<CoreTeamDept/>}></Route>
+          <Route path="/voting" element={<VotingPage/>}></Route>
         </Routes>
       </Router>
     </>
