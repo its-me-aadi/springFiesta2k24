@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/VotingPage.css';
-import axios from 'axios';
 import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
 import { faSearch } from '@fontawesome/free-solid-svg-icons';
@@ -17,10 +16,6 @@ function VotingPage() {
   const [data, setData] = useState([])
   const navigate = useNavigate()
 
-
-  const handleLikeClick = (imageId) => {
-    console.log("Liked image with ID:", imageId);
-  };
   const fetchData = async () => {
     const response = await fetch('https://spring-fiesta-2k24-backend.onrender.com/candidate', {
       method: 'GET',
@@ -34,15 +29,15 @@ function VotingPage() {
   }
 
   useEffect(() => {
-      fetchData()
+    fetchData()
     // eslint-disable-next-line
   }, [])
 
   const UpdateLike = async (candi) => {
 
-    if(localStorage.getItem('token')){
+    if (localStorage.getItem('token')) {
       const decodedId = decodeToken(localStorage.getItem('token'))
-      if (!decodedId.isVoted){
+      if (!decodedId.isVoted) {
         const response = await fetch(`https://spring-fiesta-2k24-backend.onrender.com/candidate/${candi.id}`, {
           method: 'POST',
           headers: {
@@ -51,7 +46,7 @@ function VotingPage() {
           },
         })
         const val = await response.json()
-        if(val.success){
+        if (val.success) {
           localStorage.setItem('token', val.token)
           fetchData()
           alert('Voted Successfully')
@@ -59,50 +54,43 @@ function VotingPage() {
         } else {
           alert('You have already voted')
         }
-      }else{
+      } else {
         alert('You have already voted')
       }
-    }else{
+    } else {
       navigate('/register')
     }
   }
-
   return (
+    <div>
+      <Navbar />
     <div className='main-body'>
-      <img src={party_pooper1} className="party-pooper1" alt="party-pooper1" />
-      <img src={party_pooper2} className="party-pooper2" alt="party-pooper2" />
-      <img src={sprinklers1} className="sprinklers1" alt="sprinklers1" />
-      <img src={sprinklers2} className="sprinklers2" alt="sprinklers2" />
-      <img src={circus_tent} className="circus" alt="circus" />
       <div className="title">
         <p>VOTING PAGE</p>
       </div>
       <div className="search-container">
         <input type="text" placeholder="Search..." />
-        {/* Use Font Awesome icon for search */}
-        <a href="#">
-          <FontAwesomeIcon icon={faSearch} className="search-icon" />
-        </a>
+        <Link to="/"><FontAwesomeIcon icon={faSearch} className="search-icon" /></Link>
       </div>
       <div className='sprinklers'>
         <img src={sprinklers1} className="sprinklers1" alt="sprinklers1" />
         <img src={sprinklers2} className="sprinklers2" alt="sprinklers2" />
       </div>
       <div className="box">
-        {images.map((image) => {
+        {data.map((candidate) => {
           return (
             <div className="box-container">
               <div className="main-image">
-                <img src={image.image} alt="image1" />
+                <img src={`/images/${candidate.name}.svg`} alt="image1" />
               </div>
               <div className='container-details'>
-                <text className='name'>{image.name}</text>
+                <text className='name'>{candidate.name}</text>
                 <div className='voting-count'>
-                  <button className='like-btn' onClick={() => handleLikeClick(image.id)} >
+                  <button className='like-btn' onClick={() => UpdateLike(candidate)} >
                     <div className="like-img">
-                      <img src={image.like} alt="Like" />
+                      <img src={images[0].like} alt="Like" />
                     </div>
-                    <h4>23</h4>
+                    <h4>{candidate.count}</h4>
                   </button>
                 </div>
               </div>
@@ -116,7 +104,7 @@ function VotingPage() {
         <img src={party_pooper2} className="party-pooper2" alt="party-pooper2" />
       </div>
     </div>
+    </div>
   );
 }
-
 export default VotingPage;

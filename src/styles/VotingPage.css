@@ -1,17 +1,15 @@
-
 body {
     background: #00123A;
 }
 
-.main-body{
+.main-body {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-
 .title {
-    margin-top: 2rem;
+    margin-top: 3rem;
     width: 100%;
     filter: drop-shadow(7.60247px 7.60247px 7.60247px rgba(185, 171, 171, 0.25));
     font-family: 'Base Neue';
@@ -22,76 +20,8 @@ body {
     color: #FF204E;
     display: flex;
     justify-content: center;
-    align-items: center; 
-}
-
-.search-icon{
-    color: black;
-}
-
-.search-container {
-    margin-top: 2rem;
-    
-    width: auto;
-    height: 10vh;
-    background: #A0153E;
-    filter: drop-shadow(7.60247px 7.60247px 7.60247px rgba(185, 171, 171, 0.25));
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    padding: 10px 20px;
-    border-radius: 30px;
     align-items: center;
-}
-
-.search-container:hover input {
-    width: 50vw;
-}
-
-.search-container input {
-    width: 0;
-    outline: none;
-    border: none;
-    font-weight: 500;
-    transition: 0.8s;
-    background: transparent;
-}
-
-.search-container a .fas {
-    color: black;
-    font-size: 3vh;
-}
-
-.search-container input[type="text"]::placeholder {
-    color: black; 
-}
-
-.party-pooper1 {
-    position: absolute; 
-    right: -8%; 
-    height: 110vh;
-    width: 50vb;
-    top: 110vh;
-    transform: rotate(-30deg);
-}
-
-.party-pooper2 {
-    position: absolute; 
-    bottom: -800px; 
-    left: -9%; 
-    height: 110vh;
-    top: 600px;
-    width: 50vb;
-    transform: rotate(30deg);
-}
-
-.sprinklers1{
-    position: absolute;
-    left: 0.14%;
-    right: 83.06%;
-    top: 4%;
-    bottom: 47.17%;
-    z-index: -1;
+    top: 150vh;
 }
 
 .sprinklers1{
@@ -111,15 +41,14 @@ body {
 }
 
 .circus {
-    position: absolute;
     left: 16.1%;
     right: 20.21%;
-    top: 110vh;
+    top: 55vh;
     bottom: 0;
     height: 100vh;
-    width: 135vb;
+    width: 50vw;
 }
-.box{
+.box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -168,7 +97,7 @@ body {
         font-size: 10vh;
         line-height: 10vh;
     }
-    
+
     .image-container {
         width: 90%;
         height: auto;
@@ -185,7 +114,7 @@ body {
     top: 80vh;
     transform: rotate(-30deg);
     }
-        
+
     .party-pooper2 {
     bottom: -500px;
     left: -5%;
@@ -194,16 +123,55 @@ body {
     width: 20vw;
     transform: rotate(30deg);
     }
-        
+
    .sprinklers1 {
     margin-left: -50%;
     margin-top: -40%;
     }
-        
+
     .sprinklers2 {
     margin-left: 100%;
     margin-top: -40%;
     }
 }
-    
 
+.search-icon{
+    color: black;
+}
+
+.search-container {
+    margin-top: 2rem;
+    
+    width: auto;
+    height: 10vh;
+    background: #A0153E;
+    filter: drop-shadow(7.60247px 7.60247px 7.60247px rgba(185, 171, 171, 0.25));
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.search-container:hover input {
+    width: 50vw;
+}
+
+.search-container input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.search-container a .fas {
+    color: black;
+    font-size: 3vh;
+}
+
+.search-container input[type="text"]::placeholder {
+    color: black; 
+}
