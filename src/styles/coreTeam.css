@@ -47,7 +47,7 @@ nav ul {
 /* Heading Styles */
 
 .heading {
-  font-size: 2.8rem;
+  font-size: clamp(1rem,2vw,2.8rem);
   color: white;
   margin:3rem auto;
   text-align: center;
@@ -57,12 +57,11 @@ nav ul {
   height: 150vw;
   width: 150vw;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50vw;
+  left: 50vw;
   transform: translate(-40%, 0);
   border: 1rem solid brown;
   border-radius: 50%;
-
 }
 
 .bg-wrapper {
@@ -70,20 +69,20 @@ nav ul {
 }
 
 .card-bg {
-  width: 200rem;
-  height: 200rem;
+  width: 200vw;
+  height: 200vw;
   border-radius: 50%;
   background-color: #23203C;
   position: absolute;
   top: 0;
   border: 1rem solid #844F2E;
-  left: -54%;
+  left: -49%;
 }
 
 .flip-card {
   position: absolute;
   top: 3rem;
-  left: 43%;
+  left:43vw;
   transform: translate(0, 0);
 }
 
@@ -92,5 +91,26 @@ nav ul {
   top: 2rem;
   height: 100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 965px) {
+  .flip-card {
+    left: 38vw;
+  }
+}
+@media only screen and (max-width: 798px) {
+  .heading {
+    margin: 1rem auto 1rem auto;
+  }
+}
+@media only screen and (max-width: 500) {
+  .heading {
+    margin: 1rem auto 1rem auto;
+  }
+}
+@media only screen and (max-width: 392px) {
+  .heading {
+    margin: 1rem auto 1rem auto;
+  }
 }
 
