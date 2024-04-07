@@ -3,6 +3,7 @@ import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import "../styles/coreTeam.css";
 import Card from "../components/Card";
 import { useState } from "react";
+import Navbar from "../components/Navbar";
 
 const CoreTeam = () => {
   let rotateArr = [-9, -7, -5, -3, -1, 1, 3, 5, 7, 9];
@@ -14,6 +15,7 @@ const CoreTeam = () => {
   let cardMotion = [
     {
       multiplier: 1,
+
       x: center,
       y: 50,
     },
@@ -237,6 +239,7 @@ const CoreTeam = () => {
 
   return (
     <>
+      <Navbar />
       <motion.div
         className="heading"
         initial={{ opacity: 0, scale: 0 }}
@@ -263,7 +266,8 @@ const CoreTeam = () => {
           {rotateArr.map((i, index) => {
             return (
               <Card
-                multiply={scrollYValue<=desiredScrollValue ? i : finalMotion[index].multiplier}
+       multiply={scrollYValue<=desiredScrollValue ? i : finalMotion[index].multiplier}
+
                 scrollYValue={scrollYValue}
                 x={finalMotion[index].x}
                 y={finalMotion[index].y}
