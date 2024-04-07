@@ -267,6 +267,9 @@ const CoreTeam = () => {
                 scrollYValue={scrollYValue}
                 x={finalMotion[index].x}
                 y={finalMotion[index].y}
+                photo={"/images/front.png"}
+                name={"yash"}
+                designation={"developer"}
               />
             );
           })}

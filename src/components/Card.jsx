@@ -5,8 +5,7 @@ import "../styles/coreTeamCard.css";
 import back from "../images/back.png";
 import front from "../images/front.png";
 
-const Card = ({ multiply, scrollYValue, x ,y }) => {
-
+const Card = ({ multiply, scrollYValue, x, y, photo, designation, name }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -32,12 +31,12 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
       rotate: multiply + "deg",
       x: x,
       y: y,
-      scale:1.1,
+      scale: 1.1,
       transition: {
         ease: "easeOut",
         duration: 0.4,
       },
-    }
+    },
   };
 
   const variantTablet = {
@@ -55,12 +54,12 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
       rotate: multiply + "deg",
       x: x,
       y: y,
-      scale:0.85,
+      scale: 0.85,
       transition: {
         ease: "easeOut",
         duration: 0.4,
       },
-    }
+    },
   };
 
   const variantMobile = {
@@ -82,25 +81,21 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
         ease: "easeOut",
         duration: 0.4,
       },
-    }
+    },
   };
 
   let finalVariant;
   let desiredScrollValue = 0;
 
-  if (window.innerWidth > 1150){
-    finalVariant = variant
-    desiredScrollValue = 250
-
-  }
-  else if(window.innerWidth >480){
-    finalVariant = variantTablet
-    desiredScrollValue = 100
-
-  }
-  else {
-    finalVariant = variantMobile
-    desiredScrollValue = 25
+  if (window.innerWidth > 1150) {
+    finalVariant = variant;
+    desiredScrollValue = 250;
+  } else if (window.innerWidth > 480) {
+    finalVariant = variantTablet;
+    desiredScrollValue = 100;
+  } else {
+    finalVariant = variantMobile;
+    desiredScrollValue = 25;
   }
 
   console.log(scrollYValue);
@@ -110,7 +105,7 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
       className="flip-card"
       onClick={handleFlip}
       whileHover={{ scale: 1.2 }}
-      animate={scrollYValue>=desiredScrollValue ? "pack" : "shuffle"}
+      animate={scrollYValue >= desiredScrollValue ? "pack" : "shuffle"}
       // animate='shuffle'
       variants={finalVariant}
       // transition={{ delay: 1, ease: "easeOut", duration: 1 }}
@@ -132,8 +127,13 @@ const Card = ({ multiply, scrollYValue, x ,y }) => {
         <div className="flip-card-back" style={{ backgroundColor: "white" }}>
           <div
             className="mem-image"
-            style={{ backgroundImage: `url(${front})` }}
-          ></div>
+            style={{ backgroundImage: `url(${photo})` }}
+          >
+            <div className="details">
+              <div className="card-name">{name}</div>
+              <div className="card-designation">{designation}</div>
+            </div>
+          </div>
         </div>
       </motion.div>
     </motion.div>
