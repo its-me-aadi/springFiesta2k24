@@ -33,6 +33,7 @@
     height: 100%;
     border-radius: 8px;
     background-size: cover;
+    background-position: center;
     outline: 3px solid black;
     display: flex;
     align-items: end;
@@ -46,11 +47,12 @@
   }
 
   .card-name {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .card-designation {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding: 2px 0;
     font-weight: 300;
   }
 

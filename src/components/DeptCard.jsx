@@ -6,7 +6,7 @@ import back from "../images/back.png";
 import front from "../images/front.png";
 
 const Card = ({ photo, designation, name }) => {
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(true);
   const [isAnimating, setIsAnimating] = useState(false);
 
   function handleFlip() {
@@ -34,8 +34,6 @@ const Card = ({ photo, designation, name }) => {
             className="mem-image"
             style={{ backgroundImage: `url("../images/back.png")` }}
           >
-            <h2>Name</h2>
-            <h4>Designation</h4>
           </div>
         </div>
 
@@ -44,8 +42,10 @@ const Card = ({ photo, designation, name }) => {
             className="mem-image"
             style={{ backgroundImage: `url(${photo})` }}
           >
-            <div className="name">{name}</div>
-            <div className="designation">{designation}</div>
+            <div className="details">
+              <div className="card-name">{name}</div>
+              <div className="card-designation">{designation}</div>
+            </div>
           </div>
         </div>
       </motion.div>

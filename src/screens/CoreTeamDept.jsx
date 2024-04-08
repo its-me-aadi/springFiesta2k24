@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 
 import "../styles/coreTeamDept.css";
 import data from "../data/CoreDept.json";
+import Navbar from "../components/Navbar";
 
 const CoreTeamDept = () => {
   const { dept } = useParams();
@@ -12,41 +13,48 @@ const CoreTeamDept = () => {
   let dataArr = [];
 
   switch (dept) {
-
     case "media":
       dataArr = data.media;
       break;
 
-    case "coding":
-      dataArr = data.media;
+    case "artAndDesign":
+      dataArr = data.artAndDesign;
       break;
 
-    case "content":
-      dataArr = data.media;
+    case "developer":
+      dataArr = data.developer;
       break;
 
-    case "cultural":
-      dataArr = data.media;
+    case "Coding":
+      dataArr = data.Coding;
       break;
 
-    case "developers":
-      dataArr = data.media;
+    case "Cultural":
+      dataArr = data.Cultural;
       break;
 
-    case "Ecell":
-      dataArr = data.media;
+    case "ESummit":
+      dataArr = data.ESummit;
       break;
 
-    case "mgmt":
-      dataArr = data.media;
+    case "Content":
+      dataArr = data.Content;
       break;
 
-    case "PR":
-      dataArr = data.media;
+    case "Robotics":
+      dataArr = data.Robotics;
       break;
-	  
+
+    case "management":
+      dataArr = data.management;
+      break;
+
+    case "pr":
+      dataArr = data.PR;
+      break;
+
     case "Sports":
-      dataArr = data.media;
+      dataArr = data.sports;
       break;
 
     default:
@@ -56,11 +64,20 @@ const CoreTeamDept = () => {
   console.log(dataArr);
 
   return (
-    <div className="card-container">
-      {dataArr.map((data) => {
-        return <Card />;
-      })}
-    </div>
+    <>
+      <Navbar />
+      <div className="card-container">
+        {dataArr.map((data) => {
+          return (
+            <Card
+              photo={data.image}
+              name={data.name}
+              designation={data.designation}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 };
 
