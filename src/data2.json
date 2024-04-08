@@ -1,28 +1,34 @@
 [
-    [{
-        "time":"10 Am",
-        "description":"lorem ipsum dolor sit amet, consectetur adip"
-    },
-    {
-        "time":"11 Am",
-        "description":"lorem ipsum dolor sit amet, consectetur adip"
-    },
-    {
-        "time":"12 Am",
-        "description":"lorem ipsum dolor sit amet, consectetur adip"
-    }],
     [
         {
-            "time":"10 Am",
-            "description":"lorem ipsum dolor sit amet, consectetur adip"
+            "time": "6:30 AM - 10 AM",
+            "description": "Cricket (3 matches)"
         },
         {
-            "time":"11 Am",
-            "description":"lorem ipsum dolor sit amet, consectetur adip"
+            "time": "10:30 AM - 12:30 PM",
+            "description": "Football (3 matches)"
         },
         {
-            "time":"12 Am",
-            "description":"lorem ipsum dolor sit amet, consectetur adip"
-        } 
-    ]    
+            "time": "1:00 PM - 2:00 PM",
+            "description": "Debate"
+        },
+        {
+            "time": "1:00 PM - 3:00 PM",
+            "description": "Art Workshop"
+        }
+    ],
+    [
+        {
+            "time": "3:00 PM - 5:00 PM",
+            "description": "Cricket (1 Match)"
+        },
+        {
+            "time": "6:00 PM - 8:00 PM",
+            "description": "Speaker Session"
+        },
+        {
+            "time": "8:00 PM - 10:00 PM",
+            "description": "Departmental Dances/Nukkad"
+        }
+    ]
 ]

@@ -1,15 +1,46 @@
 [
+    [
         {
-            "time":"10 Am",
-            "description":"lorem ipsum dolor sit amet, consectetur adip"
+            "time": "6:30 AM-10:00 AM",
+            "description": "cricket (3 matches)"
         },
         {
-            "time":"11 Am",
-            "description":"lorem ipsum dolor sit amet, consectetur adip"
+            "time": "10:30 AM-5:00 PM",
+            "description": "Exhibition"
         },
         {
-            "time":"12 Am",
-            "description":"lorem ipsum dolor sit amet, consectetur adip"
+            "time": "In Exhibition",
+            "description": "Art x AI"
+        },
+        {
+            "time": "10:30 AM-1:30 PM",
+            "description": "Startup Treasure"
+        },
+        {
+            "time": "2:00 PM-4:00 PM",
+            "description": "Hands-on-DSLR"
         }
-      
+    ],
+    [
+        {
+            "time": "2:00 PM-5:00 PM",
+            "description": "3v3 Coding"
+        },
+        {
+            "time": "3:00 PM-5:00 PM",
+            "description": "Rangoli Competition"
+        },
+        {
+            "time": "4:00 PM-6:00 PM",
+            "description": "Lift - Off"
+        },
+        {
+            "time": "6:30 PM-10:00 PM",
+            "description": "Open Mic"
+        },
+        {
+            "time": "9:30 AM-3:30 PM",
+            "description": "Stock Mania"
+        }
+    ]
 ]

@@ -8,13 +8,13 @@ import party_pooper2 from '../components/partyPooper2.svg';
 import sprinklers1 from '../components/sprinklers1.svg';
 import sprinklers2 from '../components/sprinklers2.svg';
 import circus_tent from '../components/circusTent.svg';
-import images from "../image.json";
 import { Link, useNavigate } from 'react-router-dom';
-import { decodeToken } from 'react-jwt';
+import { decodeToken } from 'react-jwt';;
 
 function VotingPage() {
   const [data, setData] = useState([])
   const navigate = useNavigate()
+  console.log(data)
 
   const fetchData = async () => {
     const response = await fetch('https://spring-fiesta-2k24-backend.onrender.com/candidate', {
@@ -25,6 +25,7 @@ function VotingPage() {
     })
     const val = await response.json()
     setData(val)
+    console.log(val)
     data.sort((a, b) => b.count - a.count)
   }
 
@@ -64,46 +65,42 @@ function VotingPage() {
   return (
     <div>
       <Navbar />
-    <div className='main-body'>
-      <div className="title">
-        <p>VOTING PAGE</p>
-      </div>
-      <div className="search-container">
-        <input type="text" placeholder="Search..." />
-        <Link to="/"><FontAwesomeIcon icon={faSearch} className="search-icon" /></Link>
-      </div>
-      <div className='sprinklers'>
+      <div className='main-body'>
+        <div className="title">
+          <p>VOTING PAGE</p>
+        </div>
+        <div className="search-container">
+          <input type="text" placeholder="Search..." />
+          <Link to="/voting"><FontAwesomeIcon icon={faSearch} className="search-icon" /></Link>
+        </div>
         <img src={sprinklers1} className="sprinklers1" alt="sprinklers1" />
         <img src={sprinklers2} className="sprinklers2" alt="sprinklers2" />
-      </div>
-      <div className="box">
-        {data.map((candidate) => {
-          return (
-            <div className="box-container">
-              <div className="main-image">
-                <img src={`/images/${candidate.name}.svg`} alt="image1" />
-              </div>
-              <div className='container-details'>
-                <text className='name'>{candidate.name}</text>
-                <div className='voting-count'>
-                  <button className='like-btn' onClick={() => UpdateLike(candidate)} >
-                    <div className="like-img">
-                      <img src={images[0].like} alt="Like" />
-                    </div>
-                    <h4>{candidate.count}</h4>
-                  </button>
+        <div className="box">
+          {data.map((candidate, ind) => {
+            return (
+              <div className="box-container" key={ind}>
+                <div className="main-image">
+                  <img src={`/images/${candidate.name}.svg`} alt="image1" />
+                </div>
+                <div className='container-details'>
+                  <text className='name'>{candidate.name}</text>
+                  <div className='voting-count'>
+                    <button className='like-btn' onClick={() => UpdateLike(candidate)} >
+                      <div className="like-img">
+                        <img src='/images/heart.svg' alt="Like" />
+                      </div>
+                      <h4>{candidate.count}</h4>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          )
-        })}
-      </div>
-      <div className='canvas'>
+            )
+          })}
+        </div>
         <img src={party_pooper1} className="party-pooper1" alt="party-pooper1" />
         <img src={circus_tent} className="circus" alt="circus" />
         <img src={party_pooper2} className="party-pooper2" alt="party-pooper2" />
       </div>
-    </div>
     </div>
   );
 }

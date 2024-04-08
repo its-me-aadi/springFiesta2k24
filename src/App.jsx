@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route , Routes } from 'react-router-dom';
+// import Navbar from './components/Navbar';
 import Home from './screens/Home';
 import CoreTeam from './screens/CoreTeam';
 import EventPage from './screens/EventPage';
 import CoreTeamDept from './screens/CoreTeamDept';
 import VotingPage from './screens/VotingPage';
 import Login from './screens/login';
+import ErrorPage from './components/ErrorPage';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/core-team/:dept" element={<CoreTeamDept/>}></Route>
           <Route path="/voting" element={<VotingPage/>}></Route>
           <Route path='/register' element={<Login />} />
+          <Route path='*' element={<ErrorPage />} /> 
         </Routes>
       </Router>
     </>
