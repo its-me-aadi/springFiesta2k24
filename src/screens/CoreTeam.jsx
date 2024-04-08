@@ -4,9 +4,10 @@ import "../styles/coreTeam.css";
 import Card from "../components/Card";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
+import coreTeam from "../data/coreTeam.json"
 
 const CoreTeam = () => {
-  let rotateArr = [-9, -7, -5, -3, -1, 1, 3, 5, 7, 9];
+  let rotateArr = [-35,-33,-31,-29,-27,-25,-23,-21,-19,-17,-15,-13,-11,-9, -7, -5, -3, -1, 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25 ,27 ,29, 31, 33, 35];
 
   let left = -350
   let center = 6
@@ -63,6 +64,153 @@ const CoreTeam = () => {
       multiplier: -8,
       x: right,
       y: 1250,
+    },
+    {
+      multiplier: 1,
+
+      x: left,
+      y: 1650,
+    },
+    {
+      multiplier: -6,
+      x: center,
+      y: 1650,
+    },
+    {
+      multiplier: 4,
+      x: right,
+      y: 1650,
+    },
+    {
+      multiplier: -5,
+      x: left,
+      y: 2050,
+    },
+    {
+      multiplier: 2,
+      x: center,
+      y: 2050,
+    },
+    {
+      multiplier: -7,
+      x: right,
+      y: 2050,
+    },
+    {
+      multiplier: 10,
+      x: left,
+      y: 2450,
+    },
+    {
+      multiplier: -4,
+      x: center,
+      y: 2450,
+    },
+    {
+      multiplier: 3,
+      x: right,
+      y: 2450,
+    },
+    {
+      multiplier: -8,
+      x: left,
+      y: 2850,
+    },
+    {
+      multiplier: 1,
+      x: center,
+      y: 2850,
+    },
+    {
+      multiplier: -6,
+      x: right,
+      y: 2850,
+    },
+    {
+      multiplier: 4,
+      x: left,
+      y: 3250,
+    },
+    {
+      multiplier: -5,
+      x: center,
+      y: 3250,
+    },
+    {
+      multiplier: 2,
+      x: right,
+      y: 3250,
+    },
+    {
+      multiplier: -7,
+      x: left,
+      y: 3650,
+    },
+    {
+      multiplier: 10,
+      x: center,
+      y: 3650,
+    },
+    {
+      multiplier: -4,
+      x: right,
+      y: 3650,
+    },
+    {
+      multiplier: 3,
+      x: left,
+      y: 4050,
+    },
+    {
+      multiplier: -8,
+      x: center,
+      y: 4050,
+    },
+    {
+      multiplier: 1,
+
+      x: right,
+      y: 4450,
+    },
+    {
+      multiplier: -6,
+      x: left,
+      y: 4450,
+    },
+    {
+      multiplier: 4,
+      x: center,
+      y: 4450,
+    },
+    {
+      multiplier: -5,
+      x: right,
+      y: 4850,
+    },
+    {
+      multiplier: 2,
+      x: left,
+      y: 4850,
+    },
+    {
+      multiplier: -7,
+      x: center,
+      y: 4850,
+    },
+    {
+      multiplier: 10,
+      x: right,
+      y: 5250,
+    },
+    {
+      multiplier: -4,
+      x: left,
+      y: 5250,
+    },
+    {
+      multiplier: 3,
+      x: center,
+      y: 5250,
     },
   ];
 
@@ -263,14 +411,17 @@ const CoreTeam = () => {
           animate={"first"}
           variants={finalDeckvariant}
         >
-          {rotateArr.map((i, index) => {
+          {coreTeam.map((member, i) => {
             return (
               <Card
-       multiply={scrollYValue<=desiredScrollValue ? i : finalMotion[index].multiplier}
+       multiply={scrollYValue<=desiredScrollValue ? rotateArr[i]/4 : finalMotion[i].multiplier}
 
                 scrollYValue={scrollYValue}
-                x={finalMotion[index].x}
-                y={finalMotion[index].y}
+                x={finalMotion[i].x}
+                y={finalMotion[i].y}
+                photo={`${member.image}`}
+                name={`${member.name}`}
+                designation={`${member.designation}`}
               />
             );
           })}

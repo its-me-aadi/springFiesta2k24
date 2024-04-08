@@ -1,11 +1,738 @@
 {
-  "media": [
+  "artAndDesign": [
     {
-      "name": "Jonh Doe",
-      "imgUrl": "/images/front.png",
-      "designation": "head"
+      "name": "Vipin Sharma",
+      "designation": "Art lead",
+      "image": "/images/CoreTeam/Abstract_committee/IMG-20240126-WA0000.jpg"
+    },
+    {
+      "name": "HAMESH PUNIYA",
+      "designation": "Art Co-lead",
+      "image": "/images/CoreTeam/Abstract_committee/Hamesh_puniya.jpg"
+    },
+    {
+      "name": "Rohit Raj",
+      "designation": "Core Team Art",
+      "image": "/images/CoreTeam/Abstract_committee/UI21EC54_Rohit_Raj.jpg"
+    },
+    {
+      "name": "VIREN MAKVANA",
+      "designation": "Core Team Art",
+      "image": "/images/CoreTeam/Abstract_committee/UI21CS67_VIREN_MAKVANA.jpg"
+    },
+    {
+      "name": "Yash Sojitra",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/Yash_Sojitra.JPG"
+    },
+    {
+      "name": "Ojaswa",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/Ojaswa.jpg"
+    },
+    {
+      "name": "AMAAN KHAN",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS05_AMAAN_KHAN.jpg"
+    },
+    {
+      "name": "Anisha Sodani",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS07_Anisha_Sodani"
+    },
+    {
+      "name": "Kanvi Makwana",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS42_Kanvi_Makwana.png"
+    },
+    {
+      "name": "MAYANK CHOUHAN",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS47_MAYANK_CHOUHAN.jpg"
+    },
+    {
+      "name": "Nilesh kumar",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS53_Nilesh_kumar.jpg"
+    },
+    {
+      "name": "Prashasti Vyas",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS61_Prashasti_Vyas.jpg"
+    },
+    {
+      "name": "Shruti Paulastye",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS76_Shruti_Paulastye.jpg"
+    },
+    {
+      "name": "Sunoy Roy",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS77_SUNOY_ROY.HEIC"
+    },
+    {
+      "name": "Tarpita Singh",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22CS79_Tarpita_Singh.jpg"
+    },
+    {
+      "name": "Dasari Shriyash",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22EC15_DASARI_SRIYASH.jpg"
+    },
+    {
+      "name": "Dev vala",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22EC18_Dev vala"
+    },
+    {
+      "name": "HARSHITA PURWAR",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22EC30_HARSHITA_PURWAR.jpg"
+    },
+    {
+      "name": "Lincy Bainiwal",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22EC39_Lincy_Bainiwal.jpg"
+    },
+    {
+      "name": "Sanya",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22EC64_SANYA.jpg"
+    },
+    {
+      "name": "Tanya Purwar",
+      "designation": "2nd year",
+      "image": "/images/CoreTeam/Abstract_committee/UI22EC77_Tanya_Purwar.jpg"
+    },
+    {
+      "name": "Unknown",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/IMG-20231021-WA0060.jpg"
+    },
+    {
+      "name": "Anjali",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS07_Anjali.jpg"
+    },
+    {
+      "name": "Gayatri Tupe",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS22_Gayatri_Tupe.jpg"
+    },
+    {
+      "name": "Kalpana Singh",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS31_Kalpana_Singh.jpg"
+    },
+    {
+      "name": "Ridhi Ladda",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS37_Ridhi_Ladda.jpg"
+    },
+    {
+      "name": "Meet Parmar",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS42_Meet_Parmar.jpg"
+    },
+    {
+      "name": "Meet shah",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS43_Meet_Shah.jpg"
+    },
+    {
+      "name": "Meetiksha",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS44_Meetiksha.jpg"
+    },
+    {
+      "name": "Sejal Maurya",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS62_SEJAL_MAURYA.jpg"
+    },
+    {
+      "name": "Sandhya",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS60_Sandhya.jpg"
+    },
+    {
+      "name": "Bhavik",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS65_BHAVIK.jpg"
+    },
+    {
+      "name": "shreya sharma",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23EC57_shreya_sharma.jpg"
+    },
+    {
+      "name": "Vasu Goti",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23CS74_VASU_GOTI.jpg"
+    },
+    {
+      "name": "Aditya Anand",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23EC03_ADITYA_ANAND.jpg"
+    },
+    {
+      "name": "Devansh Bohare",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23EC16_DEVANSH_BOHARE.jpg"
+    },
+    {
+      "name": "Palak Dwivedi",
+      "designation": "1st year",
+      "image": "/images/CoreTeam/Abstract_committee/UI23EC43_Palak_Dwivedi.jpg"
     }
   ],
-  "sports": []
-}
+  "developer": [
+    {
+      "name": "Yash Sojitra",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Developers/Yash_Sojitra.JPG"
+    },
+    {
+      "name": "Prateek Jaiswal",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Developers/Prateek_jaiswal.png"
+    },
+    {
+      "name": "Akash Dholakiya",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Developers/Akash_Dholakiya.jpg"
+    },
+    {
+      "name": "Shradesh Jodawat",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Developers/Shradesh_Jodawat.jpg"
+    },
+    {
+      "name": "Suvrat Bajpai",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Developers/Suvrat_bajpai.jpg"
+    }
+  ],
+  "Coding": [
+    {
+      "name": "Adarsh Pandey",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/adarsh_panday_member.jpg"
+    },
+    {
+      "name": "Aditi Rathore",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/Aditi_Rathore.jpg"
+    },
+    {
+      "name": "Aman Parmar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/Aman_Parmar.jpg"
+    },
+    {
+      "name": "Ojaswa",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/Ojaswa.jpg"
+    },
+    {
+      "name": "Prakhar Mishra",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/Prakhar_Mishra.jpg"
+    },
+    {
+      "name": "Priyanshu Chaturvedi",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/Priyanshu_Chaturvedi.jpg"
+    },
+    {
+      "name": "Ridhi Ladda",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Coding_Committee/Volunteers/Ridhi_Ladda.jpg"
+    }
+  ],
+  "Content": [
+    {
+      "name": "Aman",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Content_committee/Volunteers/Aman.jpg"
+    },
+    {
+      "name": "Devansh Kushwaha",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Content_committee/Volunteers/Devansh_Kushwaha_Member.jpg"
+    },
+    {
+      "name": "Mohammad Sami Choudhari",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Content_committee/Volunteers/Mohammad_Sami_Choudhari.jpg"
+    },
+    {
+      "name": "Sparsh Saxena",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Content_committee/Volunteers/Sparsh_Saxena.jpg"
+    },
+    {
+      "name": "Shruti Paulastye",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Content_committee/Volunteers/UI22CS76_Shruti_Paulastye.jpg"
+    }
+  ],
+  "Robotics": [
+    {
+      "name": "Prateek Jaiswal",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/prateek_jaiswal_volunteer.png"
+    },
+    {
+      "name": "Adarsh",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/adarsh_member.png"
+    },
+    {
+      "name": "Aditi Rathore",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Aditi_Rathore.jpg"
+    },
+    {
+      "name": "Yash Sojitra",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Developers/Yash_Sojitra.JPG"
+    },
+    {
+      "name": "Shradesh Jodawat",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Shradesh_Jodawat_member.jpg"
+    },
+    {
+      "name": "Ojaswa",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Ojaswa_volunteer.jpg"
+    },
+    {
+      "name": "Aditya Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Aditya_kumar_member.jpg"
+    },
+    {
+      "name": "Bhavin",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Bhavin_kachariya.jpg"
+    },
+    {
+      "name": "Devansh Kushwaha",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Devansh_Kushwaha_Member.jpg"
+    },
+    {
+      "name": "Jugal Patel",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Jugal_Patel_Volunteer.jpg"
+    },
 
+    {
+      "name": "Shreyas Gogdani",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Shreyas_Gogdani_member.jpg"
+    },
+    {
+      "name": "Abhinav",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Abhinav_member.jpg"
+    },
+    {
+      "name": "Adarsh Pandey",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/adarsh_panday_member.jpg"
+    },
+    {
+      "name": "Aryan Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/AryanKumar_UI23EC08.jpg"
+    },
+    {
+      "name": "Chirag",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/chirag_member.jpg"
+    },
+    {
+      "name": "Dhanajay",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Dhananjay_member.png"
+    },
+    {
+      "name": "Madhav",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Madhav_UI23EC32.jpg"
+    },
+    {
+      "name": "Preet",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Preet_member.jpg"
+    },
+    {
+      "name": "Saquib",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Saquib_member.jpg"
+    }
+  ],
+  "Cultural": [
+    {
+      "name": "Chaitanya Chandarkar",
+      "designation": "Cultural Lead",
+      "image": "/images/CoreTeam/Cultural_committee/Chaitanya_Chandarkar_Head.jpg"
+    },
+    {
+      "name": "Harshit Panjwani",
+      "designation": "Cultural Co-Lead",
+      "image": "/images/CoreTeam/Cultural_committee/Harshit_Panjwani.jpg"
+    },
+    {
+      "name": "Adarsh Singh",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/Adarsh_Singh.jpg"
+    },
+    {
+      "name": "Dev Vala",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/Dev_Vala_co-ordinator.jpg"
+    },
+    {
+      "name": "Devansh Kushwaha",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/Devansh_Kushwaha.jpg"
+    },
+    {
+      "name": "Harshvardhan",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/hmt.png"
+    },
+    {
+      "name": "Shivangi",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/IMG-20240403-WA0007.jpg"
+    },
+    {
+      "name": "Kanvi Makwana",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/Kanvi_Makwana.jpg"
+    },
+    {
+      "name": "Nilesh Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/Nilesh_Kumar.jpg"
+    },
+    {
+      "name": "Shruti Paulastye",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Cultural_committee/Coordinator/UI22CS42_Shruti_Paulastye.png"
+    }
+  ],
+  "ESummit": [
+    {
+      "name": "Aditya Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Aditya_kumar_member.jpg"
+    },
+    {
+      "name": "Anway Durge",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Anway_Durge_member.jpg"
+    },
+    {
+      "name": "Ruchita",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/IMG_20240222_221426.jpg"
+    },
+    {
+      "name": "Jugal Patel",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Jugal_Patel_Member.jpg"
+    },
+    {
+      "name": "Nilesh Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Nilesh_kumar_member.jpg"
+    },
+    {
+      "name": "Pratham Sachan",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Pratham_Sachan_Member.jpg"
+    },
+    {
+      "name": "Shivangi",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Shivangi.jpg"
+    },
+    {
+      "name": "Sudarshan Jha",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/E-Summit_Committee/Members/Sudarshan_Jha_Member.jpg"
+    }
+  ],
+  "management": [
+    {
+      "name": "Prateek Jaiswal",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/prateek_jaiswal.png"
+    },
+    {
+      "name": "Shruti Paulastye",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/UI22CS76_Shruti_Paulastye.jpg"
+    },
+    {
+      "name": "Prashasti Vyas",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/UI22CS61_Prashasti_Vyas.jpg"
+    },
+    {
+      "name": "Tarun Khatri",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Tarun.jpg"
+    },
+    {
+      "name": "Sumit",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Sumit.jpg"
+    },
+    {
+      "name": "Sanya Raj",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Sanya.jpg"
+    },
+    {
+      "name": "Priyanshu Chaturvedi",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Priyanshu_Chaturvedi.jpg"
+    },
+    {
+      "name": "Mayank Chauhan",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Mayank_chouhan.jpg"
+    },
+    {
+      "name": "Harsh Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Harsh_Kumar.jpg"
+    },
+    {
+      "name": "Gaurav kumar shaw",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/GouravKumarShaw.JPG"
+    },
+    {
+      "name": "Dhananjay",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Dhananjay_member.png"
+    },
+    {
+      "name": "Darshan ",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Darshan_Dixit.jpg"
+    },
+    {
+      "name": "Anurag",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Anurag.jpg"
+    },
+    {
+      "name": "Ankit",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Ankit_.jpg"
+    },
+    {
+      "name": "Aditi Rathore",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Aditi_Rathore.jpg"
+    },
+    {
+      "name": "Adarsh Singh",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Adarsh_Singh.png"
+    },
+    {
+      "name": "Abhinav",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/MGMT/Volunteers/Abhinav_Member.jpg"
+    }
+  ],
+  "media": [
+    {
+      "name": "Pranav",
+      "designation": "Head",
+      "image": "/images/CoreTeam/Media_Cell/Heads/Pranav_Garasiya.jpg"
+    },
+    {
+      "name": "Dhyey Savaliya",
+      "designation": "Head",
+      "image": "/images/CoreTeam/Media_Cell/Heads/Dhyey_Savaliya.jpg"
+    },
+    {
+      "name": "Anmol Kumar",
+      "designation": "Head",
+      "image": "/images/CoreTeam/Media_Cell/Heads/Anmol_Kumar.jpeg"
+    },
+    {
+      "name": "Yash Gupta",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Yash_Gupta.jpg"
+    },
+    {
+      "name": "Sarthak Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Sarthak_Kumar_Member.jpg"
+    },
+    {
+      "name": "Rohith Kuramana",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Rohith_Kuramana.jpeg"
+    },
+    {
+      "name": "Mayank chouhan",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Mayank_chouhan.jpg"
+    },
+    {
+      "name": "Devansh Kushwaha",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Devansh_Kushwaha_Member.jpg"
+    },
+    {
+      "name": "Dev vala",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Dev_vala.jpg"
+    },
+    {
+      "name": "Dasari Sriyash",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Dasari_Sriyash.jpg"
+    },
+    {
+      "name": "Aditya kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Aditya_kumar_media.jpg"
+    },
+    {
+      "name": "DEVANSH BOHARE",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/UI23EC16_DEVANSH_BOHARE.jpg"
+    },
+    {
+      "name": "Tanmay Jain",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Tanmay_Jain_UI23EC63.jpg"
+    },
+    {
+      "name": "Sparsh",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Sparsh_Saxena_UI23EC59.jpg"
+    },
+    {
+      "name": "Saquib",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Saquib_member.jpg"
+    },
+    {
+      "name": "Preet",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Preet_member.jpg"
+    },
+    {
+      "name": "Madhav",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Madhav_UI23EC32.jpg"
+    },
+    {
+      "name": "Kshitij",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Kshitij_ui23cs35.jpg"
+    },
+    {
+      "name": "Jash",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Jash_Kapoor_UI23CS29_.jpg"
+    },
+    {
+      "name": "AryanKumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/AryanKumar_UI23EC08.jpg"
+    },
+    {
+      "name": "Arpitkhare",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Media_Cell/Volunteers/Arpitkhare_UI23EC07.jpg"
+    }
+  ],
+  "PR": [
+    {
+      "name": "Heet Goyani",
+      "designation": "Head",
+      "image": "/images/CoreTeam/PR_and_Outreach/Heads/Heet_Goyani_Head1.jpeg"
+    },
+    {
+      "name": "Tanishq Saini",
+      "designation": "Head",
+      "image": "/images/CoreTeam/PR_and_Outreach/Heads/Tanishq_Saini_Head.jpg"
+    },
+    {
+      "name": "Adarsh Pandey",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/adarsh_panday_member.jpg"
+    },
+    {
+      "name": "Aman Singh",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Aman.jpg"
+    },
+    {
+      "name": "Bhumil Ranghroliya",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Bhumil.jpg"
+    },
+    {
+      "name": "Dev Gupta",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Dev_Gupta.jpg"
+    },
+    {
+      "name": "Bhavin Kachariya",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/bhavin.jpg"
+    },
+    {
+      "name": "Harsh Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Harsh_Kumar.jpg"
+    },
+    {
+      "name": "Jugal Patel",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Jugal_Patel_Member.jpg"
+    },
+    {
+      "name": "Preet",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Preet_member.jpg"
+    },
+    {
+      "name": "Saquib",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Saquib_member.jpg"
+    },
+    {
+      "name": "Shreyas Gogdani",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Shreyas_Gogdani_member.jpg"
+    },
+    {
+      "name": "Spaarsh Thakkar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Spaarsh_Thakkar.jpg"
+    },
+    {
+      "name": "Vikas Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/vikas.jpg"
+    }
+  ]
+}

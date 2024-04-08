@@ -5,9 +5,8 @@ import "../styles/coreTeamCard.css";
 import back from "../images/back.png";
 import front from "../images/front.png";
 
-const Card = () => {
-
-  const [isFlipped, setIsFlipped] = useState(false);
+const Card = ({ photo, designation, name }) => {
+  const [isFlipped, setIsFlipped] = useState(true);
   const [isAnimating, setIsAnimating] = useState(false);
 
   function handleFlip() {
@@ -29,27 +28,29 @@ const Card = () => {
         animate={{ rotateY: isFlipped ? 180 : 360 }}
         transition={{ duration: 0.2, animationDirection: "normal" }}
         onAnimationComplete={() => setIsAnimating(false)}
-
       >
         <div className="flip-card-front" style={{ backgroundColor: "white" }}>
           <div
             className="mem-image"
             style={{ backgroundImage: `url(${back})` }}
           >
-              <h2>Name</h2>
-              <h4>Designation</h4>
-            </div>
           </div>
+        </div>
 
         <div className="flip-card-back" style={{ backgroundColor: "white" }}>
           <div
             className="mem-image"
-            style={{ backgroundImage: `url(${front})` }}
-          ></div>
+            style={{ backgroundImage: `url(${photo})` }}
+          >
+            <div className="details">
+              <div className="card-name">{name}</div>
+              <div className="card-designation">{designation}</div>
+            </div>
+          </div>
         </div>
       </motion.div>
     </motion.div>
   );
 };
-  
+
 export default Card;
