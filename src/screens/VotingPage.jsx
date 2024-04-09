@@ -9,7 +9,9 @@ import sprinklers1 from '../components/sprinklers1.svg';
 import sprinklers2 from '../components/sprinklers2.svg';
 import circus_tent from '../components/circusTent.svg';
 import { Link, useNavigate } from 'react-router-dom';
-import { decodeToken } from 'react-jwt';;
+import { decodeToken } from 'react-jwt';
+import Footer from '../components/Footer';
+
 
 function VotingPage() {
   const [data, setData] = useState([])
@@ -101,6 +103,7 @@ function VotingPage() {
         <img src={circus_tent} className="circus" alt="circus" />
         <img src={party_pooper2} className="party-pooper2" alt="party-pooper2" />
       </div>
+      <Footer/>
     </div>
   );
 }
