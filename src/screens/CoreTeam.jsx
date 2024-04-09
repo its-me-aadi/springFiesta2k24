@@ -194,8 +194,7 @@ const CoreTeam = () => {
         <Heading>Cultural</Heading>
         <Heading>E-Summit</Heading>
         <Heading>media</Heading>
-        <Heading>Sports</Heading>
-        
+        <Heading>Sports</Heading> 
       </motion.div>
     </>
   );
