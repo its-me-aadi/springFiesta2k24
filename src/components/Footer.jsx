@@ -17,7 +17,7 @@ const Footer = () => {
           <Heading><Link to="/core-team/Content">Content</Link></Heading>
           <Heading><Link to="/core-team/Robotics">Robotics</Link></Heading>
           <Heading><Link to="/core-team/Cultural">Cultural</Link></Heading>
-          <Heading><Link to="/core-team/Content">E-Summit</Link></Heading>
+          <Heading><Link to="/core-team/ESummit">E-Summit</Link></Heading>
           <Heading><Link to="/core-team/media">Media</Link></Heading>
           <Heading><Link to="/core-team/Sports">Sports</Link></Heading>
         </div>
