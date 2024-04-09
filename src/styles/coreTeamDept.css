@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,4 +21,22 @@
     border-radius: 2rem;
     width: 14rem;
     height: 20rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 3rem;
+}
+
+@media only screen and (max-width: 968px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 392px) {
+    h1{
+        font-size: 2rem;
+    }
 }

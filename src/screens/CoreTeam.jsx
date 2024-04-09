@@ -4,320 +4,72 @@ import "../styles/coreTeam.css";
 import Card from "../components/Card";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import coreTeam from "../data/coreTeam.json"
+import coreTeam from "../data/coreTeam.json";
+
+const alignArray = [-350, 0, 350];
+let cardMotion = [];
+
+cardMotion.push({
+  multiplier: 1,
+  x: 0,
+  y: 50,
+});
+
+for (let index = 0; index < coreTeam.length - 1; index++) {
+  const element = {
+    multiplier: Math.floor(Math.random() * (10 - -10 + 1)) + -10,
+    x: alignArray[index % 3],
+    y: 400 * Math.floor(index / 3) + 450,
+  };
+  cardMotion.push(element);
+}
+
+const alignArrayTab = [-130, 130];
+let cardMotionTablet = [];
+
+cardMotionTablet.push({
+  multiplier: 1,
+  x: 0,
+  y: 50,
+});
+
+for (let index = 0; index < coreTeam.length - 1; index++) {
+  const element = {
+    multiplier: Math.floor(Math.random() * (10 - -10 + 1)) + -10,
+    x: alignArrayTab[index % 2],
+    y: 350 * Math.floor(index / 2) + 360,
+  };
+  cardMotionTablet.push(element);
+}
+
+let cardMotionMobile = [];
+
+cardMotionMobile.push({
+  multiplier: 1,
+  x: 0,
+  y: 0,
+});
+
+for (let index = 0; index < coreTeam.length - 1; index++) {
+  const element = {
+    multiplier: Math.floor(Math.random() * (10 - -10 + 1)) + -10,
+    x: -30,
+    y: 350 * index + 350,
+  };
+  cardMotionMobile.push(element);
+}
+
+const Heading = ({children}) => {
+  return ( 
+    <motion.h1 whileHover={{scale:[1,1.1,1]}} >{children}</motion.h1>
+   );
+}
 
 const CoreTeam = () => {
-  let rotateArr = [-35,-33,-31,-29,-27,-25,-23,-21,-19,-17,-15,-13,-11,-9, -7, -5, -3, -1, 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25 ,27 ,29, 31, 33, 35];
-
-  let left = -350
-  let center = 6
-  let right = 350
-
-  let cardMotion = [
-    {
-      multiplier: 1,
-
-      x: center,
-      y: 50,
-    },
-    {
-      multiplier: -6,
-      x: left,
-      y: 450,
-    },
-    {
-      multiplier: 4,
-      x: center,
-      y: 450,
-    },
-    {
-      multiplier: -5,
-      x: right,
-      y: 450,
-    },
-    {
-      multiplier: 2,
-      x: left,
-      y: 850,
-    },
-    {
-      multiplier: -7,
-      x: center,
-      y: 850,
-    },
-    {
-      multiplier: 10,
-      x: right,
-      y: 850,
-    },
-    {
-      multiplier: -4,
-      x: left,
-      y: 1250,
-    },
-    {
-      multiplier: 3,
-      x: center,
-      y: 1250,
-    },
-    {
-      multiplier: -8,
-      x: right,
-      y: 1250,
-    },
-    {
-      multiplier: 1,
-
-      x: left,
-      y: 1650,
-    },
-    {
-      multiplier: -6,
-      x: center,
-      y: 1650,
-    },
-    {
-      multiplier: 4,
-      x: right,
-      y: 1650,
-    },
-    {
-      multiplier: -5,
-      x: left,
-      y: 2050,
-    },
-    {
-      multiplier: 2,
-      x: center,
-      y: 2050,
-    },
-    {
-      multiplier: -7,
-      x: right,
-      y: 2050,
-    },
-    {
-      multiplier: 10,
-      x: left,
-      y: 2450,
-    },
-    {
-      multiplier: -4,
-      x: center,
-      y: 2450,
-    },
-    {
-      multiplier: 3,
-      x: right,
-      y: 2450,
-    },
-    {
-      multiplier: -8,
-      x: left,
-      y: 2850,
-    },
-    {
-      multiplier: 1,
-      x: center,
-      y: 2850,
-    },
-    {
-      multiplier: -6,
-      x: right,
-      y: 2850,
-    },
-    {
-      multiplier: 4,
-      x: left,
-      y: 3250,
-    },
-    {
-      multiplier: -5,
-      x: center,
-      y: 3250,
-    },
-    {
-      multiplier: 2,
-      x: right,
-      y: 3250,
-    },
-    {
-      multiplier: -7,
-      x: left,
-      y: 3650,
-    },
-    {
-      multiplier: 10,
-      x: center,
-      y: 3650,
-    },
-    {
-      multiplier: -4,
-      x: right,
-      y: 3650,
-    },
-    {
-      multiplier: 3,
-      x: left,
-      y: 4050,
-    },
-    {
-      multiplier: -8,
-      x: center,
-      y: 4050,
-    },
-    {
-      multiplier: 1,
-
-      x: right,
-      y: 4450,
-    },
-    {
-      multiplier: -6,
-      x: left,
-      y: 4450,
-    },
-    {
-      multiplier: 4,
-      x: center,
-      y: 4450,
-    },
-    {
-      multiplier: -5,
-      x: right,
-      y: 4850,
-    },
-    {
-      multiplier: 2,
-      x: left,
-      y: 4850,
-    },
-    {
-      multiplier: -7,
-      x: center,
-      y: 4850,
-    },
-    {
-      multiplier: 10,
-      x: right,
-      y: 5250,
-    },
-    {
-      multiplier: -4,
-      x: left,
-      y: 5250,
-    },
-    {
-      multiplier: 3,
-      x: center,
-      y: 5250,
-    },
-  ];
-
-  let cardMotionTablet = [
-    {
-      multiplier: 1,
-      x: center,
-      y: 5,
-    },
-    {
-      multiplier: -6,
-      x: -130,
-      y: 350,
-    },
-    {
-      multiplier: 4,
-      x: +130,
-      y: 350,
-    },
-    {
-      multiplier: -5,
-      x: -130,
-      y: 650,
-    },
-    {
-      multiplier: 2,
-      x: 130,
-      y: 650,
-    },
-    {
-      multiplier: -7,
-      x: -130,
-      y: 950,
-    },
-    {
-      multiplier: 10,
-      x: 130,
-      y: 950,
-    },
-    {
-      multiplier: -4,
-      x: -130,
-      y: 1250,
-    },
-    {
-      multiplier: 3,
-      x: 130,
-      y: 1250,
-    },
-    {
-      multiplier: -8,
-      x: 0,
-      y: 1550,
-    },
-  ];
-
-  let cardMotionMobile = [
-    {
-      multiplier: 1,
-      x: 0,
-      y: 0,
-    },
-    {
-      multiplier: -6,
-      x: 0,
-      y: 200,
-    },
-    {
-      multiplier: 4,
-      x: 0,
-      y: 400,
-    },
-    {
-      multiplier: -5,
-      x: 0,
-      y: 600,
-    },
-    {
-      multiplier: 2,
-      x: 0,
-      y: 800,
-    },
-    {
-      multiplier: -7,
-      x: 0,
-      y: 1000,
-    },
-    {
-      multiplier: 10,
-      x: 0,
-      y: 1200,
-    },
-    {
-      multiplier: -4,
-      x: 0,
-      y: 1400,
-    },
-    {
-      multiplier: 3,
-      x: 0,
-      y: 1600,
-    },
-    {
-      multiplier: -8,
-      x: 0,
-      y: 1800,
-    },
+  let rotateArr = [
+    -35, -33, -31, -29, -27, -25, -23, -21, -19, -17, -15, -13, -11, -9, -7, -5,
+    -3, -1, 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
+    35, 37,
   ];
 
   const { scrollY } = useScroll();
@@ -368,21 +120,18 @@ const CoreTeam = () => {
   let desiredScrollValue = 0;
   let finalDeckvariant;
 
-  if (window.innerWidth > 1150){
-    finalMotion = cardMotion
-    desiredScrollValue = 250
-    finalDeckvariant = deckVariants
-    
-  }
-  else if(window.innerWidth > 480){
-    finalMotion = cardMotionTablet
-    desiredScrollValue = 100
-    finalDeckvariant = deckVariantsTablet
-  }
-  else {
-    finalMotion = cardMotionMobile
-    desiredScrollValue = 25
-    finalDeckvariant = deckVariantsMobile
+  if (window.innerWidth > 1150) {
+    finalMotion = cardMotion;
+    desiredScrollValue = 250;
+    finalDeckvariant = deckVariants;
+  } else if (window.innerWidth > 550) {
+    finalMotion = cardMotionTablet;
+    desiredScrollValue = 100;
+    finalDeckvariant = deckVariantsTablet;
+  } else {
+    finalMotion = cardMotionMobile;
+    desiredScrollValue = 25;
+    finalDeckvariant = deckVariantsMobile;
   }
 
   return (
@@ -414,8 +163,11 @@ const CoreTeam = () => {
           {coreTeam.map((member, i) => {
             return (
               <Card
-       multiply={scrollYValue<=desiredScrollValue ? rotateArr[i]/4 : finalMotion[i].multiplier}
-
+                multiply={
+                  scrollYValue <= desiredScrollValue
+                    ? rotateArr[i] / 4
+                    : finalMotion[i].multiplier
+                }
                 scrollYValue={scrollYValue}
                 x={finalMotion[i].x}
                 y={finalMotion[i].y}
@@ -427,8 +179,26 @@ const CoreTeam = () => {
           })}
         </motion.div>
       </motion.div>
+      <motion.div
+        className="dept"
+        animate={{ y: finalMotion[finalMotion.length - 1].y + 450 }}
+        transition={{ duration:0.3, ease:"easeInOut" }}
+      >
+        <Heading>Developers</Heading>
+        <Heading>Management</Heading>
+        <Heading>Public Relations</Heading>
+        <Heading>Abstract</Heading>
+        <Heading>Coding</Heading>
+        <Heading>Content</Heading>
+        <Heading>Robotics</Heading>
+        <Heading>Cultural</Heading>
+        <Heading>E-Summit</Heading>
+        <Heading>media</Heading>
+        <Heading>Sports</Heading> 
+      </motion.div>
     </>
   );
 };
 
 export default CoreTeam;
+

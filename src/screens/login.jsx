@@ -23,6 +23,7 @@ export default function Login() {
   }
   console.log(credentials);
 
+  
   const HandleRegister = async (e) => {
     e.preventDefault()
     setLoading(true)

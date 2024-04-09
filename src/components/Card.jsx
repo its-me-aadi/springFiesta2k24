@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import "../styles/coreTeamCard.css";
 
@@ -15,6 +15,12 @@ const Card = ({ multiply, scrollYValue, x, y, photo, designation, name }) => {
       setIsAnimating(true);
     }
   }
+
+  const flipStatus = useMemo(() => {
+    if (scrollYValue > 250) {
+      setIsFlipped(true);
+    }
+  }, [scrollYValue]);
 
   const variant = {
     shuffle: {
