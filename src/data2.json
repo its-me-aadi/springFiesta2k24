@@ -5,19 +5,23 @@
             "description": "Cricket (3 matches)"
         },
         {
+            "time": "9:00 AM - 9:00 PM",
+            "description": "Stock Mania"
+        },
+        {
             "time": "10:30 AM - 12:30 PM",
             "description": "Football (3 matches)"
         },
         {
             "time": "1:00 PM - 2:00 PM",
             "description": "Debate"
-        },
-        {
-            "time": "1:00 PM - 3:00 PM",
-            "description": "Art Workshop"
         }
     ],
     [
+        {
+            "time": "1:00 PM - 3:00 PM",
+            "description": "Art Workshop"
+        },
         {
             "time": "3:00 PM - 5:00 PM",
             "description": "Cricket (1 Match)"
