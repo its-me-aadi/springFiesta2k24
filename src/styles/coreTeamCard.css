@@ -1,3 +1,5 @@
+
+
 .flip-card {
     perspective: 1000px;
     border-radius: 2rem;
@@ -65,8 +67,8 @@
 
   @media only screen and (max-width: 798px) {
     .flip-card {
-      width: 10.5rem;
-      height: 15rem;
+      width: 14rem;
+      height: 20rem;
     }
     .flip-card-front,
     .flip-card-back {
@@ -77,8 +79,8 @@
 
   @media only screen and (max-width: 550px) {
     .flip-card {
-      width: 8.4rem;
-      height: 12rem;
+      width: 14rem;
+      height: 20rem;
     }
     .flip-card-front,
     .flip-card-back {
@@ -92,8 +94,8 @@
   }
   @media only screen and (max-width: 460px) {
     .flip-card {
-      width: 7rem;
-      height: 10rem;
+      width: 8.2em;
+      height: 12rem;
     }
     .flip-card-front,
     .flip-card-back {

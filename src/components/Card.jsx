@@ -98,8 +98,6 @@ const Card = ({ multiply, scrollYValue, x, y, photo, designation, name }) => {
     desiredScrollValue = 25;
   }
 
-  console.log(scrollYValue);
-
   return (
     <motion.div
       className="flip-card"

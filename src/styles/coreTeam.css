@@ -52,6 +52,9 @@ nav ul {
   margin:3rem auto;
   text-align: center;
 }
+.heading h1 {
+  padding-bottom: 1rem;
+}
 
 .circle {
   height: 150vw;
@@ -91,6 +94,18 @@ nav ul {
   top: 2rem;
   height: 100%;
   width: 100%;
+}
+
+.dept {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-520px);  
+  }
 }
 
 @media only screen and (max-width: 965px) {
