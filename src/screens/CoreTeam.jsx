@@ -5,6 +5,7 @@ import Card from "../components/Card";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import coreTeam from "../data/coreTeam.json";
+import Footer from "../components/Footer";
 
 const alignArray = [-350, 0, 350];
 let cardMotion = [];
@@ -57,12 +58,6 @@ for (let index = 0; index < coreTeam.length - 1; index++) {
     y: 350 * index + 350,
   };
   cardMotionMobile.push(element);
-}
-
-const Heading = ({children}) => {
-  return ( 
-    <motion.h1 whileHover={{scale:[1,1.1,1]}} >{children}</motion.h1>
-   );
 }
 
 const CoreTeam = () => {
@@ -152,7 +147,7 @@ const CoreTeam = () => {
         animate={{ y: 0 }}
         transition={{ ease: "easeOut", duration: 1 }}
       >
-        <div className="card-bg" />
+        <div className="card-bg" style={scrollYValue>desiredScrollValue?{border:'none'}:{}} />
 
         <motion.div
           className="card-wrapper"
@@ -184,17 +179,7 @@ const CoreTeam = () => {
         animate={{ y: finalMotion[finalMotion.length - 1].y + 450 }}
         transition={{ duration:0.3, ease:"easeInOut" }}
       >
-        <Heading>Developers</Heading>
-        <Heading>Management</Heading>
-        <Heading>Public Relations</Heading>
-        <Heading>Abstract</Heading>
-        <Heading>Coding</Heading>
-        <Heading>Content</Heading>
-        <Heading>Robotics</Heading>
-        <Heading>Cultural</Heading>
-        <Heading>E-Summit</Heading>
-        <Heading>media</Heading>
-        <Heading>Sports</Heading> 
+        <Footer/>
       </motion.div>
     </>
   );

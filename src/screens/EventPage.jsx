@@ -9,6 +9,7 @@ import '../styles/event_page.css'
 import data1 from '../data1.json'
 import data2 from '../data2.json'
 import data3 from '../data3.json'
+import Footer from '../components/Footer'
 const EventPage = () => {
 
   const HandleEventLoad = () => {
@@ -127,6 +128,7 @@ const EventPage = () => {
           </div>
         </div>
     </div>
+    <Footer/>
     </>
   )
 }
