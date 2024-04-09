@@ -30,14 +30,14 @@ let cardMotionTablet = [];
 
 cardMotionTablet.push({
   multiplier: 1,
-  x: 0,
+  x: -30,
   y: 50,
 });
 
 for (let index = 0; index < coreTeam.length - 1; index++) {
   const element = {
     multiplier: Math.floor(Math.random() * (10 - -10 + 1)) + -10,
-    x: alignArrayTab[index % 2],
+    x: alignArrayTab[index % 2]-40,
     y: 350 * Math.floor(index / 2) + 360,
   };
   cardMotionTablet.push(element);
@@ -47,14 +47,14 @@ let cardMotionMobile = [];
 
 cardMotionMobile.push({
   multiplier: 1,
-  x: 0,
+  x: -50,
   y: 0,
 });
 
 for (let index = 0; index < coreTeam.length - 1; index++) {
   const element = {
     multiplier: Math.floor(Math.random() * (10 - -10 + 1)) + -10,
-    x: -30,
+    x: -50,
     y: 350 * index + 350,
   };
   cardMotionMobile.push(element);
@@ -62,10 +62,7 @@ for (let index = 0; index < coreTeam.length - 1; index++) {
 
 const CoreTeam = () => {
   let rotateArr = [
-    -39,-37,-35, -33, -31, -29, -27, -25, -23, -21, -19, -17, -15, -13, -11, -9, -7, -5,
-    -3, -1, 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
-    35, 37,39,41
-  ];
+    -41,-39,-37,-35, -33, -31, -29, -27, -25, -23, -21, -19, -17, -15, -13, -11, -9, -7, -5,-3, -1, 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,35, 37,39,41];
 
   const { scrollY } = useScroll();
 
