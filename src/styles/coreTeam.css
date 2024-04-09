@@ -126,6 +126,10 @@ nav ul {
   .heading {
     margin: 1rem auto 1rem auto;
   }
+  
+  .flip-card {
+    left: 38vw;
+  }
 }
 
 @media only screen and (max-width: 392px) {
