@@ -16,7 +16,7 @@ const Card = ({ photo, designation, name }) => {
     }
   }
 
-  return (
+  return ( 
     <motion.div
       className="flip-card-dept"
       onClick={handleFlip}
