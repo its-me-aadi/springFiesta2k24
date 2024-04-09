@@ -57,7 +57,7 @@ const CoreTeamDept = () => {
 
     case "Robotics":
       dataArr = data.Robotics;
-      title = "Management Team";
+      title = "Robotics Team";
       break;
 
     case "management":
