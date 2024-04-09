@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Card from "../components/DeptCard";
 
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 
 import "../styles/coreTeamDept.css";
 import data from "../data/CoreDept.json";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const CoreTeamDept = () => {
   const { dept } = useParams();
+
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+
 
   let dataArr = [];
   let title;
@@ -20,7 +27,7 @@ const CoreTeamDept = () => {
 
     case "artAndDesign":
       dataArr = data.artAndDesign;
-      title = "Abstract team";
+      title = "Art and Design team";
       break;
 
     case "developer":
@@ -89,6 +96,7 @@ const CoreTeamDept = () => {
           );
         })}
       </div>
+      <Footer/>
     </>
   );
 };
