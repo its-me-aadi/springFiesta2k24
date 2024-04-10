@@ -5,14 +5,14 @@
     "image": "/images/CoreTeam/Harsh_Yadav.webp"
   },
   {
-    "name": "Harshit Panjwani",
-    "designation": "Cultural Co-Head",
-    "image": "images/CoreTeam/Cultural_committee/Harshit_Panjwani.webp"
-  },
-  {
     "name": "Chaitanya Chandarkar",
     "designation": "Cultural Head",
     "image": "images/CoreTeam/Cultural_committee/Chaitanya_Chandarkar_Head.webp"
+  },
+  {
+    "name": "Harshit Panjwani",
+    "designation": "Cultural Co-Head",
+    "image": "images/CoreTeam/Cultural_committee/Harshit_Panjwani.webp"
   },
   {
     "name": "Yashraj Kulshrestha",
@@ -55,6 +55,11 @@
     "image": "images/CoreTeam/Developers/akash_yadav.webp"
   },
   {
+    "name": "Swayam Behera",
+    "designation": "Design Head",
+    "image": "/images/CoreTeam/Developers/Swayam_Behera.webp"
+  },
+  {
     "name": "Mayur Valecha",
     "designation": "Core Team Coding",
     "image": "/images/CoreTeam/Coding_Committee/Core/Mayur_valecha.webp"
@@ -85,6 +90,16 @@
     "image": "images/CoreTeam/Coding_Committee/Core/Vivek_kumar.webp"
   },
   {
+    "name": "Jeet Soni",
+    "designation": "Robotics Head",
+    "image": "images/CoreTeam/Robotics_committee/CORE/Jeet_head.webp"
+  },
+  {
+    "name": "Prashant",
+    "designation": "Robotics Head",
+    "image": "images/CoreTeam/Robotics_committee/CORE/Prashant_head.webp"
+  },
+  {
     "name": "Abhilasha Supe",
     "designation": "Robotics Core Team",
     "image": "images/CoreTeam/Robotics_committee/CORE/Abhilasha_core.webp"
@@ -95,19 +110,9 @@
     "image": "images/CoreTeam/Robotics_committee/CORE/Dhyey_core.webp"
   },
   {
-    "name": "Jeet",
-    "designation": "Robotics Head",
-    "image": "images/CoreTeam/Robotics_committee/CORE/Jeet_head.webp"
-  },
-  {
     "name": "Jeet Parab",
     "designation": "Robotics Core Team",
     "image": "images/CoreTeam/Robotics_committee/CORE/JeetParab_Core.webp"
-  },
-  {
-    "name": "Prashant",
-    "designation": "Robotics Head",
-    "image": "images/CoreTeam/Robotics_committee/CORE/Prashant_head.webp"
   },
   {
     "name": "Sneha",
