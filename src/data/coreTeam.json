@@ -55,6 +55,11 @@
     "image": "images/CoreTeam/Developers/akash_yadav.webp"
   },
   {
+    "name": "Swayam Behera",
+    "designation": "Design Head",
+    "image": "/images/CoreTeam/Developers/Swayam_Behera.webp"
+  },
+  {
     "name": "Mayur Valecha",
     "designation": "Core Team Coding",
     "image": "/images/CoreTeam/Coding_Committee/Core/Mayur_valecha.webp"
@@ -85,7 +90,7 @@
     "image": "images/CoreTeam/Coding_Committee/Core/Vivek_kumar.webp"
   },
   {
-    "name": "Jeet",
+    "name": "Jeet Soni",
     "designation": "Robotics Head",
     "image": "images/CoreTeam/Robotics_committee/CORE/Jeet_head.webp"
   },

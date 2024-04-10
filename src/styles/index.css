@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  background: #23203C !important;
+}
+
 @font-face {
   font-family: 'Base-neue-bold';
   src: url('../components/BaseNeueTrial-Bold.ttf');

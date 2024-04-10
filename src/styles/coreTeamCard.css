@@ -1,5 +1,3 @@
-
-
 .flip-card {
     perspective: 1000px;
     border-radius: 2rem;
@@ -64,7 +62,6 @@
   }
 
 
-
   @media only screen and (max-width: 798px) {
     .flip-card {
       width: 14rem;
@@ -94,8 +91,8 @@
   }
   @media only screen and (max-width: 460px) {
     .flip-card {
-      width: 8.2em;
-      height: 12rem;
+      width: 12.6rem;
+      height: 18rem;
     }
     .flip-card-front,
     .flip-card-back {
@@ -109,8 +106,8 @@
   }
   @media only screen and (max-width: 392px) {
     .flip-card {
-      width: 7rem;
-      height: 10rem;
+      width: 11.2rem;
+      height: 16rem;
     }
     .flip-card-front,
     .flip-card-back {
