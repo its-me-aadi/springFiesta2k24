@@ -35,7 +35,7 @@ const Footer = () => {
 };
 
 const Heading = ({ children }) => {
-  return <motion.h3 whileHover={{ scale: [1, 1.1, 1] }}>{children}</motion.h3>;
+  return <motion.h3 style={{textAlign:"center"}} whileHover={{ scale: [1, 1.1, 1] }}>{children}</motion.h3>;
 };
 
 export default Footer;
