@@ -106,8 +106,8 @@
   }
   @media only screen and (max-width: 392px) {
     .flip-card {
-      width: 11.2rem;
-      height: 16rem;
+      width: 12.6rem;
+      height: 18rem;
     }
     .flip-card-front,
     .flip-card-back {
