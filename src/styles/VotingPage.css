@@ -1,6 +1,4 @@
-body {
-    background: #00123A;
-}
+
 
 .main-body {
     justify-content: center;
@@ -232,5 +230,12 @@ body {
 
     .box{
         margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 392) {
+    .title {
+        font-size: 2rem;
+        line-height: 10vh;
     }
 }

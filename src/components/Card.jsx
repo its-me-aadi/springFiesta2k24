@@ -48,7 +48,7 @@ const Card = ({ multiply, scrollYValue, x, y, photo, designation, name }) => {
   const variantTablet = {
     shuffle: {
       rotate: multiply * 2 + "deg",
-      x: multiply * 15,
+      x: multiply * 15-40,
       y: Math.abs(multiply * 3.5),
       transition: {
         delay: 1,
@@ -71,7 +71,7 @@ const Card = ({ multiply, scrollYValue, x, y, photo, designation, name }) => {
   const variantMobile = {
     shuffle: {
       rotate: multiply + "deg",
-      x: multiply * 2.9,
+      x: multiply * 2 - 50,
       y: Math.abs(multiply * 2),
       transition: {
         delay: 1,
