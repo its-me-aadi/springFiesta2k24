@@ -442,11 +442,6 @@
       "image": "/images/CoreTeam/Robotics_committee/Volunteers/Shreyas_Gogdani_member.webp"
     },
     {
-      "name": "Abhinav",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Abhinav_member.webp"
-    },
-    {
       "name": "Adarsh Pandey",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/Robotics_committee/Volunteers/adarsh_panday_member.webp"
@@ -480,6 +475,11 @@
       "name": "Saquib",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/Robotics_committee/Volunteers/Saquib_member.webp"
+    },
+    {
+      "name": "Abhinav",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Robotics_committee/Volunteers/Abhinav_member.webp"
     }
   ],
   "Cultural": [
@@ -668,6 +668,11 @@
       "image": "/images/CoreTeam/MGMT/Volunteers/Mayank_chouhan.webp"
     },
     {
+      "name": "Bhavin Kachariya",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Sports/Bhavin_Kachariya_member.webp"
+    },
+    {
       "name": "Harsh Kumar",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/MGMT/Volunteers/Harsh_Kumar.webp"
@@ -711,11 +716,6 @@
       "name": "Abhinav",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/MGMT/Volunteers/Abhinav_Member.webp"
-    },
-    {
-      "name": "Bhavin Kachariya",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/Sports/Bhavin_Kachariya_member.webp"
     }
   ],
   "media": [
@@ -837,16 +837,6 @@
       "image": "/images/CoreTeam/PR_and_Outreach/Heads/Heet_Goyani_Head1.webp"
     },
     {
-      "name": "Adarsh Pandey",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/adarsh_panday_member.webp"
-    },
-    {
-      "name": "Aman Singh",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Aman.webp"
-    },
-    {
       "name": "Bhumil Ranghroliya",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Bhumil.webp"
@@ -862,24 +852,9 @@
       "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/bhavin.webp"
     },
     {
-      "name": "Harsh Kumar",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Harsh_Kumar.webp"
-    },
-    {
       "name": "Jugal Patel",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Jugal_Patel_Member.webp"
-    },
-    {
-      "name": "Preet",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Preet_member.webp"
-    },
-    {
-      "name": "Saquib",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Saquib_member.webp"
     },
     {
       "name": "Shreyas Gogdani",
@@ -895,6 +870,31 @@
       "name": "Vikas Kumar",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/vikas.webp"
+    },
+    {
+      "name": "Aman Singh",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Aman.webp"
+    },
+    {
+      "name": "Harsh Kumar",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Harsh_Kumar.webp"
+    },
+    {
+      "name": "Preet",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Preet_member.webp"
+    },
+    {
+      "name": "Saquib",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/Saquib_member.webp"
+    },
+    {
+      "name": "Adarsh Pandey",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/PR_and_Outreach/Volunteers/adarsh_panday_member.webp"
     }
   ],
   "sports" : [

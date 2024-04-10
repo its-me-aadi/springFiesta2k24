@@ -53,6 +53,12 @@ const Navbar = () => {
             <div className="border-cross"></div>
           )}
         </li>
+        <li className="nav-li">
+          <Link to="/gallery">Gallery</Link>
+          {location.pathname === "/gallery" && (
+            <div className="border-cross"></div>
+          )}
+        </li>
         <li className="nav-li"> 
           
           {!localStorage.getItem("token") ? 
