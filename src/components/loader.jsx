@@ -1,12 +1,25 @@
 import React from 'react'
-// import '../styles/loader.css'
-export default function loader() {
-    return (
-        <div style={{display:'flex',justifyContent:"center",alignItems:"center",marginTop:"9%",color:"whitesmoke"}}>
-            Please wait...good things take time 
-        </div>
-        // <div style={{ position: "fixed", top: "48%", left: "30%", color: "whitesmoke" }}>
-        //     Please wait... good things take time
-        // </div>
-    )
+import HashLoader from "react-spinners/HashLoader";
+
+
+const Loader = () => {
+
+  return (
+    <div style={{ display:"flex",justifyContent:"center",height:"90vh",alignItems:"center" }} >
+      <div className="sweet-loading">
+
+        <HashLoader
+          color="#000"
+          cssOverride=''
+          size={80}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+        />
+      </div>
+
+
+    </div>
+  )
 }
+
+export default Loader
