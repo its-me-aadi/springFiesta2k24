@@ -1,38 +1,30 @@
 [
     [
         {
-            "time": "6:30 AM - 10 AM",
-            "description": "Cricket (3 matches)"
+            "time": "6:30 AM - 2 PM",
+            "description": "Cricket (5 matches)"
         },
         {
-            "time": "9:00 AM - 9:00 PM",
+            "time": "9:00 AM - 3:30 PM",
             "description": "Stock Mania"
-        },
-        {
-            "time": "10:30 AM - 12:30 PM",
-            "description": "Football (3 matches)"
         },
         {
             "time": "1:00 PM - 2:00 PM",
             "description": "Debate"
+        },
+        {
+            "time": "1:00 PM - 3:00 PM",
+            "description": "Art Workshop"
         }
     ],
     [
         {
-            "time": "1:00 PM - 3:00 PM",
-            "description": "Art Workshop"
-        },
-        {
-            "time": "3:00 PM - 5:00 PM",
-            "description": "Cricket (1 Match)"
-        },
-        {
-            "time": "6:00 PM - 8:00 PM",
+            "time": "5:30 PM - 6:45 PM",
             "description": "Speaker Session"
         },
         {
-            "time": "8:00 PM - 10:00 PM",
-            "description": "Departmental Dances/Nukkad"
+            "time": "7:00 PM - 9:30 PM",
+            "description": "Culturat Programs"
         }
     ]
 ]
