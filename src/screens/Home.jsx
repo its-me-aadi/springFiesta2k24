@@ -28,11 +28,6 @@ const Home = () => {
         // eslint-disable-next-line
      },[])
 
-  
-    // useEffect(() => {
-     
-    // }, []);
-
     return (
         <div>
             {screenLoading  &&
@@ -49,15 +44,6 @@ const Home = () => {
             }
 
         </div>
-// =======
-    
-//     return (
-//         <div>
-//             <Spline scene="https://prod.spline.design/z1df8UIGFMTtO57Z/scene.splinecode" />
-//             { <Loader/>}
-//         </div>
-        
-// >>>>>>> main
     );    
 }
 export default Home;
