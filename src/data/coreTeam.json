@@ -5,25 +5,16 @@
     "image": "/images/CoreTeam/Harsh_Yadav.webp"
   },
   {
-    "name": "Chaitanya Chandarkar",
-    "designation": "Cultural Head",
-    "image": "images/CoreTeam/Cultural_committee/Chaitanya_Chandarkar_Head.webp"
-  },
-  {
-    "name": "Harshit Panjwani",
-    "designation": "Cultural Co-Head",
-    "image": "images/CoreTeam/Cultural_committee/Harshit_Panjwani.webp"
+    "name": "Padam Mantry",
+    "designation": "Core Management",
+    "image": "images/CoreTeam/MGMT/Core/Padam_mantry.webp"
   },
   {
     "name": "Yashraj Kulshrestha",
     "designation": "Core Management",
     "image": "images/CoreTeam/MGMT/Core/Yashraj_Kulshrestha.webp"
   },
-  {
-    "name": "Padam Mantry",
-    "designation": "Core Management",
-    "image": "images/CoreTeam/MGMT/Core/Padam_mantry.webp"
-  },
+  
   {
     "name": "Shashank Jharaniya",
     "designation": "Core Management",
@@ -60,6 +51,16 @@
     "image": "/images/CoreTeam/Developers/Swayam_Behera.webp"
   },
   {
+    "name": "Chaitanya Chandarkar",
+    "designation": "Cultural Head",
+    "image": "images/CoreTeam/Cultural_committee/Chaitanya_Chandarkar_Head.webp"
+  },
+  {
+    "name": "Harshit Panjwani",
+    "designation": "Cultural Co-Head",
+    "image": "images/CoreTeam/Cultural_committee/Harshit_Panjwani.webp"
+  },
+  {
     "name": "Mayur Valecha",
     "designation": "Core Team Coding",
     "image": "/images/CoreTeam/Coding_Committee/Core/Mayur_valecha.webp"
@@ -78,6 +79,11 @@
     "name": "Pankaj Mandal",
     "designation": "Core Team Coding",
     "image": "images/CoreTeam/Coding_Committee/Core/Pankaj_Mandal.webp"
+  },
+  {
+    "name": "Harsh Singh",
+    "designation": "Head",
+    "image": "/images/CoreTeam/Coding_Committee/Core/Harsh_Singh.webp"
   },
   {
     "name": "Shrey Shah",
@@ -173,11 +179,6 @@
     "name" : "Vipin Sharma",
     "designation" : "Art & Design",
     "image" : "images/CoreTeam/Abstract_committee/Vipin_Sharma.webp"
-  },
-  {
-    "name" : "Swayam Behera",
-    "designation" : "Art & Design",
-    "image" : "images/CoreTeam/Abstract_committee/Swayam_Behera.webp"
   },
   {
     "name" : "Hamesh Puniya",
