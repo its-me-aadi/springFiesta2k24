@@ -701,6 +701,11 @@
       "name": "Abhinav",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/MGMT/Volunteers/Abhinav_Member.webp"
+    },
+    {
+      "name": "Bhavin Kachariya",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Sports/Bhavin_Kachariya_member.webp"
     }
   ],
   "media": [
@@ -884,10 +889,11 @@
   ],
   "sports" : [
     {
-      "name": "Sujal Tiwari",
+      "name": "Manoj Rathod",
       "designation": "Head",
-      "image": "/images/CoreTeam/Sports/Sujal_Tiwari_head.webp"
+      "image": "/images/CoreTeam/Sports/Rathod_Manoj_sports_head.webp"
     },
+    
     {
       "name": "Danish Ansari",
       "designation": "Head",
@@ -899,19 +905,14 @@
       "image": "/images/CoreTeam/Sports/Meet_Harsoda_head.webp"
     },
     {
-      "name": "Manoj Rathod",
+      "name": "Sujal Tiwari",
       "designation": "Head",
-      "image": "/images/CoreTeam/Sports/Rathod_Manoj_sports_head.webp"
-    },
+      "image": "/images/CoreTeam/Sports/Sujal_Tiwari_head.webp"
+    },  
     {
       "name": "Aman Khan",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/Sports/Amaan_khan_member.webp"
-    },
-    {
-      "name": "Bhavin Kachariya",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/Sports/Bhavin_Kachariya_member.webp"
     },
     {
       "name": "Charishma ",
@@ -987,11 +988,6 @@
       "name": "Tarun",
       "designation": "Volunteer",
       "image": "/images/CoreTeam/Sports/Tarun_member.webp"
-    },
-    {
-      "name": "Kaplana Singht",
-      "designation": "Volunteer",
-      "image": "/images/CoreTeam/Sports/UI23CS31_Kalpana_Singh.webp"
     }
   ]
 }
