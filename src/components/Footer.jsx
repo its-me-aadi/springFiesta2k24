@@ -12,7 +12,7 @@ const Footer = () => {
           <Heading><Link to="/core-team/developer">Developers</Link></Heading>
           <Heading><Link to="/core-team/management">Management</Link></Heading>
           <Heading><Link to="/core-team/pr">Public Relations</Link></Heading>
-          <Heading><Link to="/core-team/artAndDesign">art & Design</Link></Heading>
+          <Heading><Link to="/core-team/artAndDesign">Art & Design</Link></Heading>
           <Heading><Link to="/core-team/Coding">Coding</Link></Heading>
           <Heading><Link to="/core-team/Content">Content</Link></Heading>
           <Heading><Link to="/core-team/Robotics">Robotics</Link></Heading>

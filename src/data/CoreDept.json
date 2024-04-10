@@ -1,6 +1,11 @@
 {
   "artAndDesign": [
     {
+      "name": "Swayam Behera",
+      "designation": "Design Head",
+      "image": "/images/CoreTeam/Developers/Swayam_Behera.webp"
+    },
+    {
       "name": "Vipin Sharma",
       "designation": "Art lead",
       "image": "/images/CoreTeam/Abstract_committee/Vipin_Sharma.webp"
@@ -206,6 +211,11 @@
       "name": "Swayam Behera",
       "designation": "Design Head",
       "image": "/images/CoreTeam/Developers/Swayam_Behera.webp"
+    },
+    {
+      "name": "Meet Harsoda",
+      "designation": "FrontEnd",
+      "image": "/images/CoreTeam/Sports/Meet_Harsoda_head.webp"
     },
     {
       "name": "Yash Sojitra",
@@ -905,7 +915,7 @@
       "image": "/images/CoreTeam/Sports/Danish_Ansari_head.webp"
     },
     {
-      "name": "Meet Harshoda",
+      "name": "Meet Harsoda",
       "designation": "Head",
       "image": "/images/CoreTeam/Sports/Meet_Harsoda_head.webp"
     },
