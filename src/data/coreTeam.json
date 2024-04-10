@@ -56,11 +56,6 @@
     "image": "images/CoreTeam/Cultural_committee/Chaitanya_Chandarkar_Head.webp"
   },
   {
-    "name": "Harshit Panjwani",
-    "designation": "Cultural Co-Head",
-    "image": "images/CoreTeam/Cultural_committee/Harshit_Panjwani.webp"
-  },
-  {
     "name": "Mayur Valecha",
     "designation": "Core Team Coding",
     "image": "/images/CoreTeam/Coding_Committee/Core/Mayur_valecha.webp"
@@ -109,21 +104,6 @@
     "name": "Abhilasha Supe",
     "designation": "Robotics Core Team",
     "image": "images/CoreTeam/Robotics_committee/CORE/Abhilasha_core.webp"
-  },
-  {
-    "name": "Dhyey",
-    "designation": "Robotics Core Team",
-    "image": "images/CoreTeam/Robotics_committee/CORE/Dhyey_core.webp"
-  },
-  {
-    "name": "Jeet Parab",
-    "designation": "Robotics Core Team",
-    "image": "images/CoreTeam/Robotics_committee/CORE/JeetParab_Core.webp"
-  },
-  {
-    "name": "Sneha",
-    "designation": "Robotics Core Team",
-    "image": "images/CoreTeam/Robotics_committee/CORE/Sneha_core.webp"
   },
   {
     "name": "Sushant",
@@ -186,15 +166,16 @@
     "image" : "images/CoreTeam/Abstract_committee/Hamesh_Puniya.webp"
   },
   {
-    "name": "Anmol Kumar",
-    "designation": "Media Head",
-    "image": "images/CoreTeam/Media_Cell/Heads/Anmol_Kumar.webp"
-  },
-  {
     "name": "Dhyey Savaliya",
     "designation": "Media Head",
     "image": "images/CoreTeam/Media_Cell/Heads/Dhyey_Savaliya.webp"
   },
+  {
+    "name": "Anmol Kumar",
+    "designation": "Media Head",
+    "image": "images/CoreTeam/Media_Cell/Heads/Anmol_Kumar.webp"
+  },
+  
   {
     "name": "Pranav Garasiya",
     "designation": "Media Head",
