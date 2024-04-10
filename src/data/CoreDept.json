@@ -3,7 +3,7 @@
     {
       "name": "Vipin Sharma",
       "designation": "Art lead",
-      "image": "/images/CoreTeam/Abstract_committee/IMG-20240126-WA0000.webp"
+      "image": "/images/CoreTeam/Abstract_committee/Vipin_Sharma.webp"
     },
     {
       "name": "HAMESH PUNIYA",
@@ -11,14 +11,19 @@
       "image": "/images/CoreTeam/Abstract_committee/Hamesh_puniya.webp"
     },
     {
-      "name": "Rohit Raj",
-      "designation": "Core Team Art",
-      "image": "/images/CoreTeam/Abstract_committee/UI21EC54_Rohit_Raj.webp"
-    },
-    {
       "name": "VIREN MAKVANA",
       "designation": "Core Team Art",
       "image": "/images/CoreTeam/Abstract_committee/UI21CS67_VIREN_MAKVANA.webp"
+    },
+    {
+      "name": "Shubham Rathore",
+      "designation": "Core Team Art",
+      "image": "/images/CoreTeam/Abstract_committee/Shubham_Rathore.webp"
+    },
+    {
+      "name": "Rohit Raj",
+      "designation": "Volunteer",
+      "image": "/images/CoreTeam/Abstract_committee/UI21EC54_Rohit_Raj.webp"
     },
     {
       "name": "Yash Sojitra",
@@ -230,6 +235,16 @@
   ],
   "Coding": [
     {
+      "name": "Nachiket Dodia",
+      "designation": "Head",
+      "image": "/images/CoreTeam/Coding_Committee/Core/Nachos.webp"
+    },
+    {
+      "name": "Rutwik Dhale",
+      "designation": "Head",
+      "image": "/images/CoreTeam/Coding_Committee/Core/Rutwik_Dhale.webp"
+    },
+    {
       "name": "Harsh Singh",
       "designation": "Head",
       "image": "/images/CoreTeam/Coding_Committee/Core/Harsh_Singh.webp"
@@ -239,11 +254,7 @@
       "designation": "Head",
       "image": "/images/CoreTeam/Coding_Committee/Core/Mayur_valecha.webp"
     },
-    {
-      "name": "Nachiket Dodia",
-      "designation": "Head",
-      "image": "/images/CoreTeam/Coding_Committee/Core/Nachos.webp"
-    },
+    
     {
       "name": "Vivek Kumar",
       "designation": "Head",
@@ -254,11 +265,7 @@
       "designation": "Head",
       "image": "/images/CoreTeam/Coding_Committee/Core/Pankaj_Mandal.webp"
     },
-    {
-      "name": "Rutwik Dhale",
-      "designation": "Head",
-      "image": "/images/CoreTeam/Coding_Committee/Core/Rutwik_Dhale.webp"
-    },
+    
     {
       "name": "Shreh Shah",
       "designation": "Head",
@@ -339,16 +346,6 @@
   ],
   "Robotics": [
     {
-      "name": "Abhilasha Supe",
-      "designation": "Core",
-      "image": "/images/CoreTeam/Robotics_Committee/Core/Abhilasha_core.webp"
-    },
-    {
-      "name": "dhyey Savaliya",
-      "designation": "Core",
-      "image": "/images/CoreTeam/Robotics_Committee/Core/Dhyey_core.webp"
-    },
-    {
       "name": "Jeet Soni",
       "designation": "Head",
       "image": "/images/CoreTeam/Robotics_Committee/Core/Jeet_head.webp"
@@ -357,6 +354,16 @@
       "name": "Prashant Tiwari",
       "designation": "Head",
       "image": "/images/CoreTeam/Robotics_Committee/Core/Prashant_head.webp"
+    },
+    {
+      "name": "Abhilasha Supe",
+      "designation": "Core",
+      "image": "/images/CoreTeam/Robotics_Committee/Core/Abhilasha_core.webp"
+    },
+    {
+      "name": "dhyey Savaliya",
+      "designation": "Core",
+      "image": "/images/CoreTeam/Robotics_Committee/Core/Dhyey_core.webp"
     },
     {
       "name": "Jeet Parab",
@@ -591,29 +598,29 @@
   ],
   "management": [
     {
-      "name": "Tanishq Saini",
-      "designation": "Head",
-      "image": "/images/CoreTeam/MGMT/Core/Tanishq_Saini.webp"
-    },
-    {
       "name": "Padam Mantry",
-      "designation": "Core",
+      "designation": "Head",
       "image": "/images/CoreTeam/MGMT/Core/Padam_mantry.webp"
     },
     {
-      "name": "Preet Khatri",
-      "designation": "Core",
-      "image": "/images/CoreTeam/MGMT/Core/Preet_khatri.webp"
+      "name": "Yashraj Kulshrestha",
+      "designation": "Head",
+      "image": "/images/CoreTeam/MGMT/Core/Yashraj_Kulshrestha.webp"
+    },
+    {
+      "name": "Tanishq Saini",
+      "designation": "Co-Head",
+      "image": "/images/CoreTeam/MGMT/Core/Tanishq_Saini.webp"
     },
     {
       "name": "Shashank Jhariya",
-      "designation": "Core",
+      "designation": "Co-Head",
       "image": "/images/CoreTeam/MGMT/Core/Shashank_jhariya.webp"
     },
     {
-      "name": "Yashraj Kulshrestha",
-      "designation": "Core",
-      "image": "/images/CoreTeam/MGMT/Core/Yashraj_Kulshrestha.webp"
+      "name": "Preet Khatri",
+      "designation": "Co-Head",
+      "image": "/images/CoreTeam/MGMT/Core/Preet_khatri.webp"
     },
     {
       "name": "Prateek Jaiswal",
@@ -810,14 +817,14 @@
   ],
   "PR": [
     {
-      "name": "Heet Goyani",
-      "designation": "Head",
-      "image": "/images/CoreTeam/PR_and_Outreach/Heads/Heet_Goyani_Head1.webp"
-    },
-    {
       "name": "Tanishq Saini",
       "designation": "Head",
       "image": "/images/CoreTeam/PR_and_Outreach/Heads/Tanishq_Saini_Head.webp"
+    },
+    {
+      "name": "Heet Goyani",
+      "designation": "Head",
+      "image": "/images/CoreTeam/PR_and_Outreach/Heads/Heet_Goyani_Head1.webp"
     },
     {
       "name": "Adarsh Pandey",
