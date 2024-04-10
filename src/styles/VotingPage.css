@@ -199,6 +199,7 @@ body {
     .title {
         font-size: 6vh;
         line-height: 10vh;
+        text-align: center;
     }
     
     .circus{
